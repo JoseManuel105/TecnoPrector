@@ -7,24 +7,6 @@
     <title>Document</title>
 </head>
 
-    <style>
-    /*
-        body{
-            background-color: black;
-            color: white;   
-            size: 40px;
-            padding: 40px;
-            font-family: arial;
-        }
-
-        h1:hover{
-            color: red;
-            transition: 1s;
-            transform: scale(1.4,1.4);
-    }
-    */
-    </style>
-
 <body>
     
 <?php

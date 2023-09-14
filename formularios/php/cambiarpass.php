@@ -25,7 +25,7 @@ $clave_capturada = "SELECT * FROM usuarios WHERE usuario = '$usuario' and passwo
 $respuesta = mysqli_query($conexion,$clave_capturada);
 
 $fila = mysqli_fetch_row($respuesta);
-$traer_clave = $fila[3];
+$traer_clave = $fila[2];
 
 if($clave != $clave2){
     echo '<script>
@@ -43,8 +43,10 @@ elseif($usu == $traer_clave){
     </script>';
 
 }else{
-    echo "La Contraseña Actual No coincide";
-    echo "<a href='../php/cambiar.php'> Volver </a>";
+    echo '<script>
+    alert("La Contraseña Actual No Coincide");
+    window.history.go(-1);
+    </script>';
 }
 
 ?>
