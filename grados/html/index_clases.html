@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/indexclases.css">
+  <title>Página de Clases</title>
+  <style>
+    /* Estilos CSS para la página */
+    /* ... Agrega aquí tus estilos personalizados ... */
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#primaria">Primaria</a></li>
+        <li><a href="#secundaria">Secundaria</a></li>
+        <li><a href="#avanzada">Avanzada</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="primaria">
+      <h2>Primaria</h2>
+      <div class="button-container">
+        <button onclick="mostrarMateria('matematicas_primaria')">Matemáticas</button>
+        <button onclick="mostrarMateria('ciencias_primaria')">Ciencias</button>
+        <button onclick="mostrarMateria('lenguaje_primaria')">Lenguaje</button>
+        <button onclick="mostrarMateria('historia_primaria')">Historia</button>
+        <button onclick="mostrarMateria('geografia_primaria')">Geografía</button>
+        <button onclick="mostrarMateria('ingles_primaria')">Inglés</button>
+        <button onclick="mostrarMateria('arte_primaria')">Arte</button>
+        <button onclick="mostrarMateria('musica_primaria')">Música</button>
+        <button onclick="mostrarMateria('educacion_fisica_primaria')">Educación Física</button>
+        <button onclick="mostrarMateria('etica_primaria')">Ética</button>
+        <button onclick="mostrarMateria('computacion_primaria')">Computación</button>
+      </div>
+      <div id="contenido_materia_primaria"></div>
+    </section>
+    
+    <section id="secundaria">
+      <h2>Secundaria</h2>
+      <div class="button-container">
+        <button onclick="mostrarMateria('matematicas_secundaria')">Matemáticas</button>
+        <button onclick="mostrarMateria('ciencias_secundaria')">Ciencias</button>
+        <button onclick="mostrarMateria('lenguaje_secundaria')">Lenguaje</button>
+        <button onclick="mostrarMateria('historia_secundaria')">Historia</button>
+        <button onclick="mostrarMateria('geografia_secundaria')">Geografía</button>
+        <button onclick="mostrarMateria('ingles_secundaria')">Inglés</button>
+        <button onclick="mostrarMateria('arte_secundaria')">Arte</button>
+        <button onclick="mostrarMateria('musica_secundaria')">Música</button>
+        <button onclick="mostrarMateria('educacion_fisica_secundaria')">Educación Física</button>
+        <button onclick="mostrarMateria('etica_secundaria')">Ética</button>
+        <button onclick="mostrarMateria('computacion_secundaria')">Computación</button>
+      </div>
+      <div id="contenido_materia_secundaria"></div>
+    </section>
+    
+    <section id="avanzada">
+      <h2>Avanzada</h2>
+      <div class="button-container">
+        <button onclick="mostrarMateria('matematicas_avanzada')">Matemáticas</button>
+        <button onclick="mostrarMateria('fisica')">Física</button>
+        <button onclick="mostrarMateria('quimica')">Química</button>
+        <button onclick="mostrarMateria('biologia')">Biología</button>
+        <button onclick="mostrarMateria('historia_avanzada')">Historia</button>
+        <button onclick="mostrarMateria('literatura')">Literatura</button>
+        <button onclick="mostrarMateria('ingles_avanzado')">Inglés</button>
+        <button onclick="mostrarMateria('arte_avanzada')">Arte</button>
+        <button onclick="mostrarMateria('musica_avanzada')">Música</button>
+        <button onclick="mostrarMateria('educacion_fisica_avanzada')">Educación Física</button>
+        <button onclick="mostrarMateria('filosofia')">Filosofía</button>
+      </div>
+      <div id="contenido_materia_avanzada"></div>
+    </section>
+  </main>
+
+  <script>
+    function mostrarMateria(materia) {
+      // Lógica para cargar el contenido de la materia seleccionada
+      var contenido = obtenerContenidoMateria(materia); // Esta función deberías definirla con el contenido real de cada materia
+      var contenedor = document.getElementById('contenido_' + materia);
+      contenedor.innerHTML = contenido;
+    }
+    
+    function obtenerContenidoMateria(materia) {
+      // Lógica para obtener el contenido de cada materia
+      // Aquí puedes retornar el contenido adecuado según la materia seleccionada
+      // Puedes usar estructuras de datos, como objetos o arreglos, para almacenar el contenido
+      // y retornar el contenido correspondiente a cada materia
+    }
+  </script>
+</body>
+</html>

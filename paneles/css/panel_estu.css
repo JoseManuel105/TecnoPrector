@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: black;
+    color:  white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    --opacidad-negro: 0.4;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))),  url(../image/fondo.jpg);
+    background-size: cover;
+
+}
+
+.titulo{
+    font-size: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.titulo:hover{
+    color: aqua;
+    transition: 1s;
+} 
+
+h2,a{
+    font-size: 40px;
+    text-decoration: none;
+    color: gold;
+}
+
+h2:hover{
+    color: rgba(255, 0, 0, 0.582);
+    transition: 1s;
+}

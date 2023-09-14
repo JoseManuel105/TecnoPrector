@@ -1,0 +1,40 @@
+*{
+  color: white;
+  border: 1px solid white;
+}
+body{
+    background-image: url(../../../../image/paisaje2.jpg);
+}
+
+.container {
+  display: flex;
+}
+
+.left-box {
+  width: 30%;
+  margin-bottom: 28.6%;
+}
+
+.right-box {
+  width: 70%;
+}
+
+table {
+  width: 100%;
+}
+
+.column {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-bottom: 5px;
+  width: 180px;
+  margin-right: 15px;
+  height: 50px;
+  background-color: blue;
+}
+
+
+

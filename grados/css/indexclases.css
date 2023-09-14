@@ -1,0 +1,121 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex; /* Agregado */
+    flex-direction: column; /* Agregado */
+    align-items: center; /* Agregado */
+  }
+  
+  
+  header {
+    background-color: #0056b3;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+
+
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center; /* Agregado */
+  }
+  
+  section {
+    margin-bottom: 70px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #0056b3;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos específicos para cada sección */
+  #primaria {
+    background-color: #f4f4f4;
+  }
+  
+  #secundaria {
+    background-color: #e6e6e6;
+  }
+  
+  #avanzada {
+    background-color: #cccccc;
+  }
+  
+  /* Estilos responsivos */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    header {
+      text-align: center;
+    }
+  
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  }
+  
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .button-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .button-container button:hover {
+    background-color: #0056b3;
+  }
