@@ -22,6 +22,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    outline: none;
 }
 
 html {
@@ -2632,3 +2633,8 @@ padding-left: 128px;
    .knowledege__texts button:hover i:nth-child(10) {
     transition-delay: calc(0.045s * 10);
    }
+
+
+   /* SECCIÓN DE PROYECTOS */
+
+  
