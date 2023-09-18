@@ -71,3 +71,14 @@ $(function () {
    toggleButton.addEventListener('click', () => {
      document.body.classList.toggle('light-mode');
    });
+
+   /* CARA*/
+   function goToSection(index) {
+    const carouselTrack = document.querySelector('.carousel-track');
+    const carouselSections = carouselTrack.querySelectorAll('.carousel-section');
+    const sectionWidth = carouselSections[0].offsetWidth;
+  
+    carouselTrack.style.transform = `translateX(-${sectionWidth * index}px)`;
+  }
+
+  
