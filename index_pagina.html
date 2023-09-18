@@ -15,7 +15,10 @@ Date: October, 2021
     <!-- custom stylesheet -->
     
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
 
 
     <!-- owl carousel cnd link -->
@@ -40,7 +43,7 @@ Date: October, 2021
 
             <ul class="nav-items">
                 <li><a href="./index_pagina.html">Inicio</a></li>
-                <li><a href="./servicios/Principal/servicios.html">Servicios</a></li>
+                <li><a href="./servicios/principal/index_servicios.html">Servicios</a></li>
                 <li><a href="./Proyectos.html">Proyectos</a></li>
                 <li><a href="./index_clases.php">Clases</a></li>
                 
@@ -117,41 +120,11 @@ Date: October, 2021
         </div>
     </div>
     
-
-
+    <center>
+<hr style="width: 90%; height: 3    px; background-color: blue; color: blue;"> <!--  WAOS  -->
+    </center>
         
-<div class="info container">
-    
-    <div class="info-txt">
-        <h2 class="put">No pierdas esta oportunidad</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Molestiae sit asperiores sed corrupti, 
-             numquam veniam minima quo molestias tenetur fuga aspernatur
-         excepturi maiores laudantium, quam modi odit. Inventore, culpa a!</p>
-       
-          
-     <div class="wrapper">
-        <a class="button" href="index_clases.php">Saber más</a>
-    </div>
-    
-    <!-- Filter: https://css-tricks.com/gooey-effect/ -->
-    <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <defs>
-            <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
-                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-                <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
-            </filter>
-        </defs>
-    </svg>
-    
-    </div>
 
-    
-    <div class="info-img">
-        <img src="./img/fondo_4.jpg" alt="">
-        </div>
-
-    </div>
 
 
 
@@ -159,8 +132,8 @@ Date: October, 2021
     <div class="top-products">
         <div class="section-wrap">
             <div class="sub-section-title">
-                <p class="pepe">Nuestras clases</p>
-                <a href="index_clases.php">Ver mas...<span class="icon-angle-double-right"></span></a>
+                <p class="pepe" style="color: white; font-size: 30px;">Nuestras clases</p>
+                <a href="index_clases.php">Ver mas<span class="icon-angle-double-right"></span></a>
             </div>
 
             <div class="products">
@@ -232,45 +205,42 @@ Date: October, 2021
 
     </div>
 
+    <section class="knowledge">
+        <div class="knowledge__container container">
+            <div class="knowledege__texts">
+                <h2 class="subtitle">¡Asegura tus oportunidades!</h2>
+                <p class="knowledge__paragraph">"En el emocionante mundo de la educación,
+                     se encuentra la llave que abre las puertas del conocimiento,
+                      el poder de transformar vidas y el camino hacia un futuro brillante. TecnoPrector es la pagina adecuada para dejar florecer tu cerebro.</a>
 
-<div class="info container">
-
-
-<div class="info-img">
-<img src="./img/ungif.gif" alt="">
-</div>
-
-<div class="info-txt">
-    <h2 class="put">No pierdas esta oportunidad</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-         Molestiae sit asperiores sed corrupti, 
-         numquam veniam minima quo molestias tenetur fuga aspernatur
-     excepturi maiores laudantium, quam modi odit. Inventore, culpa a!</p>
-   
-      
- <div class="wrapper">
-    <a class="button" href="./index_clases.php">Saber más</a>
-</div>
-
-<!-- Filter: https://css-tricks.com/gooey-effect/ -->
-<svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
-    <defs>
-        <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
-            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-            <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
-        </filter>
-    </defs>
-</svg>
-
-</div>
-</div>
+                  <br><br>
+                      <button alt="saber más">
+                        <i>s</i>
+                        <i>a</i>
+                        <i>b</i>
+                        <i>e</i>
+                        <i>r</i>
+                        <i>&nbsp;</i>
+                        <i>m</i>
+                        <i>á</i>
+                        <i>s</i>
+                      </button>
 
 
 
+            </div>
+
+            <figure class="knowledge__picture">
+                <img src="./img/iconazo.png" class="knowledge__img">
+            </figure>
+        </div>
+    </section>
 
 
+    
 
 
+    
 
     <div class="clientes contenedor">
         <h2 class="titulo">Que dicen nuestros clientes</h2>
@@ -1248,6 +1218,10 @@ Date: October, 2021
 
     <!-- custom script -->
     <script src="js/script.js"></script>
+
+    <script src="js/slider.js"></script>
+    <script src="js/questions.js"></script>
+    <script src="js/menu.js"></script>
 
 </body>
 

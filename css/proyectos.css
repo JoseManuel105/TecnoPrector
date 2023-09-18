@@ -1,0 +1,319 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  background: #111;
+  min-height: 100vh;
+  background-color: #111111f0;
+}
+section .bannerVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+section .bannerVideo video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+section .bannerVideo video.active {
+  opacity: 0.3;
+  background-color: rgba(0, 0, 0, 0.7);
+
+}
+section .container {
+  position: relative;
+  padding: 0 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+}
+section .container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 10px 0 15px rgba(0, 0, 0, 0.05);
+}
+section .container header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+}
+section .container header .logo {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+section .container header ul {
+  position: relative;
+  display: flex;
+}
+section .container header ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+section .container header ul li a {
+  position: relative;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 4px 10px;
+  color: #fff;
+}
+section .container header ul li a:hover {
+  background: #fff;
+  color: #111;
+}
+section .container header ul li a.active {
+  background: #fff;
+  color: #111;
+}
+section .container header .menuIcon {
+  display: none;
+}
+section .container .content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+section .container .content .bannerText {
+  position: relative;
+  max-width: 700px;
+}
+section .container .content .bannerText div {
+  display: none;
+  transition: 0.5s ease-in-out;
+}
+section .container .content .bannerText div h2 {
+  color: #2d00aa;
+  font-size: 6em;
+  line-height: 1em;
+  font-weight: 700;
+}
+
+
+
+
+
+section .container .content .bannerText div p {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 20px 0;
+  text-align: justify;
+  font-weight: bolder 200;
+}
+section .container .content .bannerText div.active {
+  display: initial;
+}
+section .container .controls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+}
+section .container .controls li {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  cursor: pointer;
+}
+section .container .controls li:hover {
+  background: #f5f5f5dd;
+}
+
+@media (max-width: 991px) {
+  section .container {
+    padding: 20px;
+  }
+  section .container:before {
+    width: 100%;
+  }
+  section .container header {
+    padding: 10px 20px;
+  }
+  section .container header ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    z-index: 1000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  section .container header ul li {
+    text-align: center;
+    margin: 10px;
+  }
+  section .container header ul li a {
+    color: #333;
+    font-size: 1.5em;
+  }
+  section .container header ul li a:hover {
+    color: #f00;
+  }
+  section .container header .menuIcon {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    display: initial;
+    z-index: 10000;
+    background: #fff url(../img/menu.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+  section .container header .menuIcon.active {
+    background: #fff url(../img/close.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  section .container header.active ul {
+    display: flex;
+  }
+  section .container .content .bannerText {
+    max-width: 100%;
+    text-align: center;
+  }
+  section .container .content .bannerText div h2 {
+    font-size: 3em;
+    
+  }
+  section .container .controls li {
+    width: 60px;
+    height: 60px;
+  }
+}/*# sourceMappingURL=style.css.map */
+
+/* DEBAJO DEL HERO */
+
+.content .bannerText button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    position: relative;
+    padding: 0 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 0;
+    box-shadow: hsl(268deg 100% 44%) 0px 7px 0px 0px;
+    background-color: hsl(268, 100%, 44%);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 31ms cubic-bezier(.5, .7, .4, 1);
+   }
+   
+   .content .bannerText button:before {
+    content: attr(alt);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 4px;
+    opacity: 1;
+   }
+   
+   .content .bannerText button:active {
+    box-shadow: none;
+    transform: translateY(7px);
+    transition: 35ms cubic-bezier(.5, .7, .4, 1);
+   }
+   
+   .content .bannerText button:hover:before {
+    transition: all .0s;
+    transform: translateY(100%);
+    opacity: 0;
+   }
+   
+   .content .bannerText button i {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-style: normal;
+    transition: all 2s ease;
+    transform: translateY(-20px);
+    opacity: 0;
+   }
+   
+   .content .bannerText button:hover i {
+    transition: all .2s ease;
+    transform: translateY(0px);
+    opacity: 1;
+   }
+   
+   .content .bannerText button:hover i:nth-child(1) {
+    transition-delay: 0.045s;
+   }
+   
+   .content .bannerText button:hover i:nth-child(2) {
+    transition-delay: calc(0.045s * 3);
+   }
+   
+   .content .bannerText button:hover i:nth-child(3) {
+    transition-delay: calc(0.045s * 4);
+   }
+   
+   .content .bannerText button:hover i:nth-child(4) {
+    transition-delay: calc(0.045s * 5);
+   }
+   
+   .content .bannerText button:hover i:nth-child(6) {
+    transition-delay: calc(0.045s * 6);
+   }
+   
+   .content .bannerText button:hover i:nth-child(7) {
+    transition-delay: calc(0.045s * 7);
+   }
+   
+   .content .bannerText button:hover i:nth-child(8) {
+    transition-delay: calc(0.045s * 8);
+   }
+   
+   .content .bannerText button:hover i:nth-child(9) {
+    transition-delay: calc(0.045s * 9);
+   }
+   
+   .content .bannerText button:hover i:nth-child(10) {
+    transition-delay: calc(0.045s * 10);
+   }

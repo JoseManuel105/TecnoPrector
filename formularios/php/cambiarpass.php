@@ -9,47 +9,43 @@
 <body>
 
 <?php
-
 session_start();
 
 $usuario = $_SESSION['usuario'];
 
 include "../php/conexion.php";
 
-$usu = $_POST["clave1"];
+$usu = $_POST["usu"];
 $clave = $_POST["clave"];
 $clave2 = $_POST["clave2"]; 
 
 $clave_capturada = "SELECT * FROM usuarios WHERE usuario = '$usuario' and password = '$usu'";
 
-$respuesta = mysqli_query($conexion,$clave_capturada);
+$respuesta = mysqli_query($conexion, $clave_capturada);
 
 $fila = mysqli_fetch_row($respuesta);
-$traer_clave = $fila[2];
+$traer_clave = $fila[3];
 
-if($clave != $clave2){
+if ($clave != $clave2) {
     echo '<script>
     alert("Las contraseñas no coinciden");
     window.history.go(-1);
     </script>';
-}
-
-elseif($usu == $traer_clave){
-    $nueva_clave = mysqli_query($conexion, "UPDATE usuarios SET password = '$clave' WHERE password = '$usu' and usuario = '$usuario'");
+} elseif ($usu == $traer_clave) {
+    $nueva_clave = mysqli_query($conexion, "UPDATE usuarios SET password = '$clave2' WHERE password = '$usu' and usuario = '$usuario'"); // -----------------------------
 
     echo '<script>
     alert("Contraseña Cambiada Con Exito");
     window.location="../html/formulario.html";
     </script>';
-
-}else{
+} else {
     echo '<script>
     alert("La Contraseña Actual No Coincide");
     window.history.go(-1);
     </script>';
 }
-
 ?>
+
     
 </body>
 </html>

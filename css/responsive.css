@@ -888,3 +888,21 @@
     }
 
 }
+
+@media screen and (max-width: 380px) {
+    .info-txt{
+
+        width: 100%;
+        
+        padding-left: 13px;
+        
+        padding-right: 20px;
+        }
+        
+    .info-img{
+        display: none;
+    }
+
+
+    
+}

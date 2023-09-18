@@ -1,106 +1,157 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/Proyectos.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <title>Proyectos - TecnoPrector</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyectos</title>
+    <link rel="stylesheet" href="css/proyectos.css" />
+    <link rel="stylesheet" href="css/style.scss">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css.map">
+  </head>
+  <body>
+    <section>
+      <div class="bannerVideo" id="slideShow">
+        <video
+          src="./img/Video_1.mp4"
+          autoplay
+          muted
+          loop class="active"
+          
+        ></video>
+        <video src="./img/Video_2.mp4" autoplay muted loop ></video>
+        <video src="./img/Video_3.mp4" autoplay muted loop></video>
+        <video src="./img/Video_4.mp4" autoplay muted loop></video>
+      </div>
+      <div class="container">
 
-    <!--    HEADER   --> 
+        <nav class="navbar">
+            <div class="logo">
+                <a href="./index_pagina.html">Tecno<span class="opa">Prector</span></a>
+            </div>
 
-  <header>
-    <input type="checkbox" id="check">
-    <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-    </label>
-    <a href="#" class="enlace">
-           <!--    LOGO  --> 
-        <img src="image/Logo_Tecno.png" alt="" class="logo">
-    </a>
-    <ul>   <!--    LINKS A LAS OTRAS PAGINAS   --> 
-        <li><a href="index.html" class="active">Inicio</a></li>
-      
-        <li><a href="Servicios.html">Servicios</a></li>
-        <li><a href="Proyectos.html">Proyectos</a></li>
-        <li><a href="Blog.html">Blog</a></li>
-        <li><a href="Clases.html">Clases</a></li>
-        <li><a href="Formulario.html" class="iniciar">Inicia Sesión</a></li>
-        <li><a href="Formulario.html" class="registro">Registrate</a></li>
-    </ul>
-    </ul>
-   
+            <ul class="nav-items">
+                <li><a href="./index_pagina.html">Inicio</a></li>
+                <li><a href="./servicios/principal/index_servicios.html">Servicios</a></li>
+                <li><a href="./Proyectos.html">Proyectos</a></li>
+                <li><a href="./index_clases.php">Clases</a></li>
+                
+            </ul>
 
+            <div class="search-box">
+                <div class="search-icon">
+                    <span class="icon-search"></span>
+                </div>
+                <input type="text" placeholder="Buscar...">
+            </div>
 
-  </header>
-<br>
+            <div class="icon-links">
+                <div id="search-btn"><span class="icon-search"></span></div>
+                <div id="customer-center"><span class="icon-phone-alt"></span></div>
+                <div id="icon-shopping-cart"><span class="icon-cart-arrow-down"><span id="item-counter">0</span></div>
+                <div id="login-or-signup"><span class="icon-user"></div>
+                <div id="toggle-bar"><span class="toggler"></span></div>
+            </div>
+        </nav>
 
-  <section class="imagenes">
-    
-    <div class="imagen" style="background-image: url(../TecnoPrector/image/proyectos/tienda.jpeg);">
-      <div class="label">
-         <div class="icon">
-          <i class="bi bi-badge-4k-fill"></i>
-          <div class="info">
-            <p class="main">@TecnoPrector</p>
-            <p class="sub">Tienda Virtual<</p>
+        
+
+       <!-- <header id="navbar">
+          <a href="#" class="logo">World</a>
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span class="menuIcon" onclick="toggleMenu()"></span>
+        </header>-->
+        <div class="content">
+          <div class="bannerText" id="slideShowText">
+            <div class="active">
+              <h2>Proyectos</h2>
+              <p>
+                Llevamos más de un año como programadores, empezamos creando paginas de distintas temáticas,
+                nos ha servido de ejemplo para crear lo que ahora es TecnoPrector, conoce nuestras demás paginas
+                ahora, continuaremos creando y diseñando por ustedes.
+              </p>
+            </div>
+            <div>
+              <h2>Jardin Éden</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                qui, ab alias porro architecto ut tempora eos pariatur at ad
+                voluptatem dolores soluta eaque consectetur nulla? Ullam officia
+                sunt repudiandae.<br><br>
+
+                <button alt="saber más">
+                    <i>s</i>
+                    <i>a</i>
+                    <i>b</i>
+                    <i>e</i>
+                    <i>r</i>
+                    <i>&nbsp;</i>
+                    <i>m</i>
+                    <i>á</i>
+                    <i>s</i>
+                  </button>
+              </p>
+            </div>
+            <div>
+              <h2>AfroHot</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                qui, ab alias porro architecto ut tempora eos pariatur at ad
+                voluptatem dolores soluta eaque consectetur nulla? Ullam officia
+                sunt repudiandae.<br><br>
+
+                <button alt="saber más">
+                    <i>s</i>
+                    <i>a</i>
+                    <i>b</i>
+                    <i>e</i>
+                    <i>r</i>
+                    <i>&nbsp;</i>
+                    <i>m</i>
+                    <i>á</i>
+                    <i>s</i>
+                  </button>
+              </p>
+            </div>
+            <div>
+              <h2>AtomRupture</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                qui, ab alias porro architecto ut tempora eos pariatur at ad
+                voluptatem dolores soluta eaque consectetur nulla? Ullam officia
+                sunt repudiandae.<br><br>
+
+                <button alt="saber más">
+                    <i>s</i>
+                    <i>a</i>
+                    <i>b</i>
+                    <i>e</i>
+                    <i>r</i>
+                    <i>&nbsp;</i>
+                    <i>m</i>
+                    <i>á</i>
+                    <i>s</i>
+                  </button>
+              </p>
+            </div>
           </div>
-         </div>
-      </div>
-    </div>
-
-    <div class="imagen" style="background-image: url(../TecnoPrector/image/proyectos/tienda.jpeg);">
-        <div class="label">
-           <div class="icon">
-            <i class="bi bi-badge-4k-fill"></i>
-            <div class="info">
-              <p class="main">@TecnoPrector</p>
-              <p class="sub">Tienda Virtual<</p>
-            </div>
-           </div>
         </div>
+        <ul class="controls">
+          <li onclick="prevSlide();prevSlideText();"><img src="./img/left.png" /></li>
+          <li onclick="nextSlide();nextSlideText();"><img src="./img/right.png" /></li>
+        </ul>
       </div>
+    </section>
 
-      <div class="imagen" style="background-image: url(../TecnoPrector/image/proyectos/tienda.jpeg);">
-        <div class="label">
-           <div class="icon">
-            <i class="bi bi-badge-4k-fill"></i>
-            <div class="info">
-              <p class="main">@TecnoPrector</p>
-              <p class="sub">Tienda Virtual<</p>
-            </div>
-           </div>
-        </div>
-      </div>
 
-      <div class="imagen" style="background-image: url(../TecnoPrector/image/proyectos/tienda.jpeg);">
-        <div class="label">
-           <div class="icon">
-            <i class="bi bi-badge-4k-fill"></i>
-            <div class="info">
-              <p class="main">@TecnoPrector</p>
-              <p class="sub">Tienda Virtual<</p>
-            </div>
-           </div>
-        </div>
-      </div>
-
-      <div class="imagen" style="background-image: url(../TecnoPrector/image/proyectos/tienda.jpeg);">
-        <div class="label">
-           <div class="icon">
-            <i class="bi bi-badge-4k-fill"></i>
-            <div class="info">
-              <p class="main">@TecnoPrector</p>
-              <p class="sub">Tienda Virtual<</p>
-            </div>
-           </div>
-        </div>
-      </div>
-
- </section>
-
-</body>
+    <script src="js/proyectos.js"></script>
+  </body>
 </html>
