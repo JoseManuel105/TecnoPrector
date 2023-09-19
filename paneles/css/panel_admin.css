@@ -890,3 +890,68 @@ body.light-mode .video-bg:before {
   background: var(--scrollbar-bg);
   border-radius: 10px;
 }
+
+/* CARA */
+.carousel-container {
+  width: 850px;
+  height: 300px;
+  overflow: hidden;
+  
+}
+
+.carousel-track {
+  display: flex;
+  width: 900px;
+  
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+.carousel-section0 {
+  width: 800px;
+  height: 100%;
+  display: flex;
+  
+  display: inline-block;
+}
+.carousel-section0 button{
+  background-color: rgb(255, 221, 0);
+  border-radius: 10%;
+  border: white 1px solid;
+  color: white;
+  width: 200px;
+  height: 40px;
+  padding-bottom:2px ;
+  margin-bottom: 40px;
+  margin-right:10px ;
+}
+
+.carousel-section {
+  padding-left: 800px;
+  width: 800px;
+  height: 100%;
+  
+  display: inline-block;
+}
+
+.carousel-section button{
+  background-color: rgb(255, 221, 0);
+  border-radius: 10%;
+  border: white 1px solid;
+  color: white;
+  width: 200px;
+  height: 40px;
+  padding-bottom:2px ;
+  margin-bottom: 40px;
+  margin-right:10px ;
+}
+
+.space{
+  width: 800px;
+  color: #14162b00;
+}
+
+.adob{
+  display: inline-block;
+  width: 800px;
+}
