@@ -185,7 +185,6 @@
           </svg>
           Cuenta
          </a>
-
          <a href="../../formularios/php/cambiar.php">
           <svg viewBox="0 0 511.441 511.441" fill="currentColor">
            <path d="M255.721 347.484L90.22 266.751v106.57l165.51 73.503 165.509-73.503V266.742z" />
@@ -193,7 +192,6 @@
           </svg>
           Contraseña
          </a>
-
          <a href="../../formularios/php/cerrarsesion.php">
           <svg viewBox="0 0 512 512" fill="currentColor">
            <path d="M196 151h-75v90h75c24.814 0 45-20.186 45-45s-20.186-45-45-45z" />
@@ -201,7 +199,6 @@
           </svg>
           Cerrar Sesion
          </a>
-         
         </div>
        </div>
       </div>
@@ -369,7 +366,7 @@
               <path d="M18.08 39H15.2V13.72l-2.64-.08V11h5.52v28zM27.68 19.4c1.173-.507 2.593-.761 4.26-.761s3.073.374 4.22 1.12V11h2.88v28c-2.293.32-4.414.48-6.36.48-1.947 0-3.707-.4-5.28-1.2-2.08-1.066-3.12-2.92-3.12-5.561v-7.56c0-2.799 1.133-4.719 3.4-5.759zm8.48 3.12c-1.387-.746-2.907-1.119-4.56-1.119-1.574 0-2.714.406-3.42 1.22-.707.813-1.06 1.847-1.06 3.1v7.12c0 1.227.44 2.188 1.32 2.88.96.719 2.146 1.079 3.56 1.079 1.413 0 2.8-.106 4.16-.319V22.52z" fill="#e1c1cf" data-original="#ff70bd" />
              </g>
             </svg>
-            Bloquear Alumno
+            Bloquear/Reportar Alumno
            </span>
            <div class="app-card__subtext">Usa esta herramienta para eliminar usuarios de las tablas.</div>
            <div class="app-card-buttons">

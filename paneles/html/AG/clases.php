@@ -31,7 +31,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Panel Administrador</title>
+  <title>Panel Estudiante</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="../../css/panel_admin.css">
 
@@ -42,7 +42,7 @@
      <video width="320" height="240" autoplay loop muted>
       <source src="https://assets.codepen.io/3364143/7btrrd.mp4" type="video/mp4">
     Tu navegador no es compatible con esta pagina.    </video>
-    </div>
+      </div> 
 
     <div class="dark-light">
         <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -53,7 +53,7 @@
 
      <div class="header">
 
-      <div class="panel">Panel Del Administrador</div> <br>  
+      <div class="panel">Panel Del Estudiante</div> <br>  
       
       <div class="header-menu">
        <a class="menu-link is-active" href="#">Inicio</a>
@@ -108,10 +108,10 @@
         </div>
        </div>
        <div class="side-wrapper">
-        <div class="side-title">Materias</div>
+        <div class="side-title">AREAS</div>
         <div class="side-menu">
          <a href="#" onclick="goToSection(0)">
-          <svg viewBox="0 0 488.455 488.455" fill="currentColor">
+          <svg viewBox="0 0 488.455 488.455" fill="currentColor"> 
            <path d="M287.396 216.317c23.845 23.845 23.845 62.505 0 86.35s-62.505 23.845-86.35 0-23.845-62.505 0-86.35 62.505-23.845 86.35 0" />
            <path d="M427.397 91.581H385.21l-30.544-61.059H133.76l-30.515 61.089-42.127.075C27.533 91.746.193 119.115.164 152.715L0 396.86c0 33.675 27.384 61.074 61.059 61.074h366.338c33.675 0 61.059-27.384 61.059-61.059V152.639c-.001-33.674-27.385-61.058-61.059-61.058zM244.22 381.61c-67.335 0-122.118-54.783-122.118-122.118s54.783-122.118 122.118-122.118 122.118 54.783 122.118 122.118S311.555 381.61 244.22 381.61z" />
           </svg>
@@ -215,7 +215,7 @@
          <a class="main-header-link" href="#">Web</a>
         </div> -->
 
-        <p class="bienvenido"> Bienvenido Administrador <h6 class="nombre_usuario"><?php echo $_SESSION['usuario']; ?> </h6></p>
+        <p class="bienvenido"> Bienvenido Estudiante <h6 class="nombre_usuario"><?php echo $_SESSION['usuario']; ?> </h6></p>
 
        </div>  
        <div class="content-wrapper">
@@ -243,71 +243,71 @@
               <div class="carousel-section">
                 <div class="adob">
                 <h1>NATURALES</h1>
-                <button>ASDJASKLDLASDl</button>
-                <button>CLASE 2</button>
-                <button>CLASE 3</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
+                <button>BIOLOGIA</button>
+                <button>QUIMICA</button>
+                <button>FISICA</button>
+                <button>ASTRONOMIA</button>
+                <button>GEOLOGIA</button>
+                <button>ECOLOGIA</button>
+                <button>METEOROLOGIA</button>
+                <button>BOTANICA</button>
+                <button>ZOOLOGIA</button>
                 </div>
               </div>
               <div class="carousel-section">
                 <h1 class="face">SOCIALES</h1>
                 <div class="adob">
-                <button>CLASE 1</button>
-                <button>CLASE 2</button>
-                <button>CLASE 3</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
+                <button>HISTORIA</button>
+                <button>GEOGRAFIA</button>
+                <button>ECONOMIA</button>
+                <button>SOCIOLOGIA</button>
+                <button>ANTROPOLOGIA</button>
+                <button>CIENCIA-POLITICA</button>
+                <button>CIVICA</button>
+                <button>FILOSOFIA</button>
+                <button>COMUNICACION</button>
                 </div>
               </div>
               <div class="carousel-section">
                 <h1 class="face">CASTELLANA</h1>
                 <div class="adob">
-                <button>CLASE 1</button>
-                <button>CLASE 2</button>
-                <button>CLASE 3</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
+                <button>GRAMATICA</button>
+                <button>ORTOGRAFIA</button>
+                <button>REDACCION</button>
+                <button>COMPRENSION</button>
+                <button>LITERATURA</button>
+                <button>GENEROS</button>
+                <button>FIGURAS-RETORICAS</button>
+                <button>VOCABULARIO</button>
+                <button>SEXO</button>
                 </div>
               </div>
               <div class="carousel-section">
                 <h1 class="face">EXTRANJERA</h1>
                 <div class="adob">
-                <button>CLASE 1</button>
-                <button>CLASE 2</button>
-                <button>CLASE 3</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
+                <button>GRAMATICA</button>
+                <button>VOCABULARIO</button>
+                <button>COMPRENSION-AUDITIVA</button>
+                <button>COMPRENSION-LECTURA</button>
+                <button>EXPRESION-ESCRITA </button>
+                <button>EXPRESION-ORAL</button>
+                <button>LITERATURA</button>
+                <button>PRACTICA</button>
+                <button>TRADUCCION-INTERPRETACION</button>
                 </div>
               </div>
               <div class="carousel-section">
                 <h1 class="face">ARTES</h1>
                 <div class="adob">
-                <button>CLASE 1</button>
-                <button>CLASE 2</button>
-                <button>CLASE 3</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
-                <button>CLASE</button>
+                <button>HISTORIA</button>
+                <button>TECNICAS</button>
+                <button>TEORIA-COLOR</button>
+                <button>COMPOSICION</button>
+                <button>ANATOMIA</button>
+                <button>MOVIMIENTOS</button>
+                <button>CRITICA DE ARTE</button>
+                <button>ARTES ESCENICAS</button>
+                <button>VARIANTES DE ARTE</button>
                 </div>
               </div>
             </div>
@@ -322,7 +322,7 @@
          
         </div>
         <div class="content-section">
-         <div class="content-section-title">Herramientas Administrador</div>
+         <div class="content-section-title">Herramientas Estudiante</div>
          <div class="apps-card">
           <div class="app-card">
            <span>
