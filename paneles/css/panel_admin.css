@@ -915,35 +915,39 @@ body.light-mode .video-bg:before {
   display: inline-block;
 }
 .carousel-section0 button{
-  background-color: rgb(255, 221, 0);
+  background-color: rgb(255, 234, 0);
   border-radius: 10%;
-  border: white 1px solid;
+  border: rgb(255, 217, 0) 1px solid;
   color: white;
   width: 200px;
   height: 40px;
   padding-bottom:2px ;
   margin-bottom: 40px;
   margin-right:10px ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:medium;
 }
 
 .carousel-section {
   padding-left: 800px;
   width: 800px;
   height: 100%;
-  
+  font-family:Arial, Helvetica, sans-serif;
   display: inline-block;
 }
 
 .carousel-section button{
-  background-color: rgb(255, 221, 0);
+  background-color: rgb(255, 234, 0);
   border-radius: 10%;
-  border: white 1px solid;
+  border: rgb(255, 221, 0) 1px solid;
   color: white;
   width: 200px;
   height: 40px;
   padding-bottom:2px ;
   margin-bottom: 40px;
   margin-right:10px ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:medium;
 }
 
 .space{
@@ -955,3 +959,6 @@ body.light-mode .video-bg:before {
   display: inline-block;
   width: 800px;
 }
+
+
+
