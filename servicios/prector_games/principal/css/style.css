@@ -212,7 +212,7 @@ button {
 }
 
 .search-form #close-search:hover {
-  color: #219150;
+  color: rgb(45, 45, 255);
 }
 
 .search-form form {
@@ -260,7 +260,7 @@ button {
 }
 
 .search-form form label:hover {
-  color: #219150;
+  color: rgb(45, 45, 255);
 }
 
 .home {
@@ -295,7 +295,7 @@ button {
 
 .home .box .content span {
   font-size: 4rem;
-  color: #10221b;
+  color: rgb(45, 45, 255);
 }
 
 .home .box .content h3 {
@@ -307,7 +307,7 @@ button {
 
 .home .box .content p {
   line-height: 2;
-  color: #10221b;
+  color: rgb(45, 45, 255);
   font-size: 1.5rem;
   padding: 1rem 0;
 }
@@ -315,7 +315,7 @@ button {
 .swiper-button-next::after,
 .swiper-button-prev::after {
   font-size: 3rem;
-  color: #10221b;
+  color: rgb(45, 45, 255);
 }
 
 .category .box-container {
@@ -390,13 +390,13 @@ button {
 
 .about .content p {
   font-size: 1.5rem;
-  color: #10221b;
+  color: rgb(45, 45, 255);
   padding: 1rem 0;
   line-height: 2;
 }
 
 .shop .slide {
-  border: 0.2rem solid #10221b;
+  border: 0.2rem solid rgb(45, 45, 255);
 }
 
 .shop .slide:hover .image .icons {
@@ -434,7 +434,7 @@ button {
   width: 4.5rem;
   line-height: 4.5rem;
   font-size: 1.7rem;
-  background: #10221b;
+  background: rgb(45, 45, 255)b;
   color: #fff;
   margin: 0 .2rem;
 }
@@ -450,7 +450,7 @@ button {
 
 .shop .slide .content h3 {
   font-size: 2rem;
-  color: #10221b;
+  color: rgb(45, 45, 255);
 }
 
 .shop .slide .content .price {
@@ -462,7 +462,7 @@ button {
 
 .shop .slide .content .stars i {
   font-size: 1.7rem;
-  color: #10221b;
+  color: rgb(255, 255, 255);
 }
 
 .packages {
@@ -480,14 +480,14 @@ button {
 .packages .box-container .box {
   text-align: center;
   background: #fff;
-  border: 0.2rem solid #10221b;
+  border: 0.2rem solid rgb(45, 45, 255);
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: .5rem;
 }
 
 .packages .box-container .box:hover {
-  background: #10221b;
+  background: rgb(45, 45, 255);
 }
 
 .packages .box-container .box:hover .content > * {
@@ -500,7 +500,7 @@ button {
 
 .packages .box-container .box:hover .btn:hover {
   background: #fff;
-  color: #10221b;
+  color: rgb(45, 45, 255);
 }
 
 .packages .box-container .box .image {
@@ -525,12 +525,12 @@ button {
 
 .packages .box-container .box .content h3 {
   font-size: 2rem;
-  color: #10221b;
+  color: rgb(45, 45, 255);
 }
 
 .packages .box-container .box .content p {
   font-size: 1.5rem;
-  color: #10221b;
+  color: rgb(45, 45, 255);
   padding: 1rem 0;
   line-height: 2;
 }
@@ -555,13 +555,13 @@ button {
 .services .box-container .box {
   text-align: center;
   padding: 2rem;
-  border: 0.2rem solid #10221b;
+  border: 0.2rem solid rgb(45, 45, 255);
   border-radius: .5rem;
   background: #fff;
 }
 
 .services .box-container .box:hover {
-  background: #10221b;
+  background: rgb(45, 45, 255);
 }
 
 .services .box-container .box:hover img {
@@ -595,7 +595,7 @@ button {
 
 .services .box-container .box p {
   font-size: 1.5rem;
-  color: #10221b;
+  color: rgb(45, 45, 255);
   padding: 1rem 0;
   line-height: 2;
 }
@@ -606,7 +606,7 @@ button {
   font-style: italic;
   background: #eee;
   border-radius: .5rem;
-  color: #10221b;
+  color: rgb(45, 45, 255);
   line-height: 2;
   position: relative;
   z-index: 0;
@@ -643,7 +643,7 @@ button {
 
 .reviews .slide .user h3 {
   font-size: 2rem;
-  color: #10221b;
+  color: rgb(45, 45, 255);
 }
 
 .reviews .slide .user span {
@@ -665,7 +665,7 @@ button {
 }
 
 .blogs .slide .icons {
-  background: #10221b;
+  background: rgb(45, 45, 255);
   border-radius: .5rem;
   padding: 1rem;
   position: relative;
@@ -690,14 +690,14 @@ button {
 
 .blogs .slide h3 {
   font-size: 2rem;
-  color: #10221b;
+  color: rgb(45, 45, 255);
 }
 
 .blogs .slide p {
   font-size: 1.4rem;
   padding: 1rem 0;
   line-height: 2;
-  color: #10221b;
+  color: rgb(45, 45, 255);
 }
 
 .newsletter {
@@ -713,14 +713,14 @@ button {
 .newsletter .content p {
   font-size: 1.5rem;
   line-height: 2;
-  color: #10221b;
+  color: rgb(45, 45, 255);
 }
 
 .newsletter .content form {
   margin-top: 2rem;
   background: #fff;
   border-radius: 5rem;
-  border: 0.2rem solid #10221b;
+  border: 0.2rem solid rgb(45, 45, 255);
   padding: .7rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -732,20 +732,20 @@ button {
   background: none;
   text-transform: none;
   font-size: 1.6rem;
-  color: #10221b;
+  color: rgb(45, 45, 255);
   padding: 0 1.3rem;
 }
 
 .newsletter .content form .btn {
   margin-top: 0;
   border-radius: 5rem;
-  background: #10221b;
+  background: rgb(45, 45, 255);
   color: #fff;
 }
 
 .newsletter .content form .btn:hover {
   background: none;
-  color: #10221b;
+  color: rgb(45, 45, 255);
 }
 
 .clients .silde {
