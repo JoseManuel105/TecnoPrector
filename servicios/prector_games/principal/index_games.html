@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Digital</title>
+  <link rel="stylesheet" href="../../principal/cabeza/cabeza.css">
+  <link rel="stylesheet" href="../../../style.css">
+</head>
+<body style="padding-top: 0px; background-color: rgba(45, 45, 255, 0.800);">  
+ 
+  <nav class="navbar" style="width: 1300px; height: 60px; padding: 10px;">
+    <div class="logo">
+        <a href="../../index_pagina.html" style="font-size: 30px; padding-right: 20px;">Tecno<span class="opa">Prector</span></a>
+    </div>
+
+    <ul class="nav-items">
+        <li><a style="font-size: 18px; padding-right: 10px;" href="../../../index_pagina.html">Inicio</a></li>
+        <li><a style="font-size: 18px; padding-right: 10px;" href="../../../servicios/principal/index_servicios.html">Servicios</a></li>
+        <li><a style="font-size: 18px; padding-right: 10px;" href="../../../Proyectos.html">Proyectos</a></li>
+        <li><a style="font-size: 18px; padding-right: 10px;" href="../../../index_clases.php">Clases</a></li>
+        
+    </ul>
+
+    <div class="search-box" style="width: 300px; height: 35px;">
+        <div class="search-icon">
+            <span class="icon-search"></span>
+        </div>
+        <input type="text" placeholder="Buscar...">
+    </div>
+
+    <div class="icon-links" style="padding-left: 30px;">
+        <div  style="padding-right: 10px;" id="search-btn"><span class="icon-search" style="width: 20px; height: 20px;"></span></div>
+        <div  style="padding-right: 10px;" id="customer-center"><span class="icon-phone-alt"></span></div>
+        <div  style="padding-right: 10px;" id="icon-shopping-cart"><span class="icon-cart-arrow-down"><span id="item-counter">0</span></div>
+        <div  style="padding-right: 10px;" id="login-or-signup"><span class="icon-user"></div>
+        <div  style="padding-right: 10px;" id="toggle-bar"><span class="toggler"></span></div>
+    </div>
+  </nav>
+
+  <script src="../../js/script.js"></script>
+  <script src="../../js/library.js"></script>
+  
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Website</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(../principal/images/tecladogamer.jpg) no-repeat;">
+                        <div class="content" style="background-color: rgba(0, 0, 0, 0.700); width: 800px; height: 450px; padding: 40px; border-radius: 30px; position: relative; left: -400px;">
+                            <span style="color: white;">Vive Una Aventura</span>
+                            <h3 style="color: rgb(45, 45, 255);">Prector Games</h3>
+                            <p style="color: white; font-size: 16px;"">Nunca debes dejar de aprender y motivarte, pero no podras aprender si no tomas algunos descansos y despejas tu mente, te diviertes y abres tu mente a otro mundo.   Despeja Tu Mente </p>
+
+                            <br><br>    
+
+                            <div class="botones_sec">
+                                <a href="#about" style="padding-right: 40px;"> <button> Saber Mas </button> </a> 
+                                <a href="#juegos"> <button> Juegos </button> </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="image">
+            <img src="../principal/images/control.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3 style="color: rgb(45, 45, 255)">memorable outdoor experiences</h3>
+            <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque voluptates corrupti natus necessitatibus beatae voluptatibus, deserunt quo soluta minima libero laborum, corporis error esse vitae placeat blanditiis reiciendis vel? Minima.</p>
+            <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta doloremque placeat porro, ipsam quia at beatae atque odit iste?</p>
+            <a href="#opiniones" class="btn">Ver Opiniones</a>
+        </div>
+
+    </section>
+
+    <section class="packages" id="juegos">
+
+        <h1 class="heading" style="color: rgb(45, 45, 255)">Juegos Disponibles</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Torres De Bloques</h3>
+                    <p style="color: black;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
+                    <a href="../juegos/torres_bloques/index.html" class="btn">Jugar Ahora</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Prector Chess</h3>
+                    <p style="color: black;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
+                    <a href="../juegos/chess_prector/index.html" class="btn">Jugar Ahora</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Columna De Color</h3>
+                    <p style="color: black;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
+                    <a href="../juegos/columna_colores/index.html" class="btn">Jugar Ahora</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Prector Rubik</h3>
+                    <p style="color: black;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
+                    <a href="../juegos/juego_elcubo/index.html" class="btn">Jugar Ahora</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Prector Ninja</h3>
+                    <p style="color: black;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
+                    <a href="../juegos/juego_menja/index.html" class="btn">Jugar Ahora</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Laberinto</h3>
+                    <p style="color: black;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
+                    <a href="../juegos/laberinto/index.html" class="btn">Jugar Ahora</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ping-Pong</h3>
+                    <p style="color: black;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
+                    <a href="../juegos/ping_pong/index.html" class="btn">Jugar Ahora</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Prector Stickman</h3>
+                    <p style="color: black;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
+                    <a href="../juegos/stickman/index.html" class="btn">Jugar Ahora</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Simulador Windows 95</h3>
+                    <p style="color: black;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
+                    <a href="../juegos/windows_95/index.html" class="btn">Jugar Ahora</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- packages section ends -->
+
+    <section class="shop" id="shop">
+
+        <h1 class="heading" style="color: rgb(255, 255, 255)">featured products</h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/product-1.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content"> <br>
+                        <h3 style="color: white;">survival kits</h3>
+                        <div class="stars" style="color: black;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/product-2.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>survival kits</h3>
+                        <div class="price"> $5.00 - $25.00 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/product-3.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>survival kits</h3>
+                        <div class="price"> $5.00 - $25.00 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/product-4.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>survival kits</h3>
+                        <div class="price"> $5.00 - $25.00 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/product-5.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>survival kits</h3>
+                        <div class="price"> $5.00 - $25.00 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/product-6.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>survival kits</h3>
+                        <div class="price"> $5.00 - $25.00 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <section class="category">
+
+        <h1 class="heading" style="color: rgb(255, 255, 255)">adventure idea!</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/category-1.jpg" alt="">
+                <h3 style="color: white">bungee jump</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, id.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="images/category-2.jpg" alt="">
+                <h3 style="color: white">zip lines</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, id.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="images/category-3.jpg" alt="">
+                <h3 style="color: white">Canoeing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, id.</p>
+                <a href="#" class="btn">read more</a>
+            </div> 
+
+        </div>
+
+    </section>
+
+    <section class="reviews" id="reviews">
+
+        <h1 class="heading" id="opiniones" style="color: white">client's reviews</h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
+                    <div class="user">
+                        <img src="images/pic-1.png" alt="">
+                        <div class="info">
+                            <h3 style="color: white">Elon Musk</h3> <br><br>
+                            <span style="color: black">Cliente</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Digital</title>
+  <link rel="stylesheet" href="../../../style.css">
+</head>
+<body style="padding-top: 100px;">
+
+  <div id="footer">
+    <div class="subscribe-area">
+        <div class="section-wrap">
+            <div class="subscribe-wrap">
+                <div class="subscribe-text">
+                    <p style="font-size: 25px;">Registrate para recibir notificaciones cuando haya novedades</p>
+                </div>
+                <form class="subscribe-input" style="width: 400px; height: 40px; padding-right: 30px;">
+                    <input type="email" placeholder="Ingresa tu correo" required style="border-radius: 20px; padding-left: 20px;"> <br><br>
+                    <button type="submit" style="font-size: 15px; padding: 10px; text-align: center; top: 0px;">Registrarme</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-footer">
+        <div class="section-wrap">
+            <div class="footer-wrap">
+                <div class="company-details">
+                    <h2 style="font-size: 22px;">TecnoPrector</h2>
+
+                    <div class="fdetails">
+                        <p style="font-size: 18px;">¿Estas interesado en trabajar con nosotros?, ingresa tus datos aqui para contactarte.
+                        </p>
+                    </div>
+
+                    <div class="social-media-links">
+                        <div class="f-links">
+                            <a href="#" style="width: 200px; padding-right: 10px;"><span class="icon-facebook-f"></span></a>
+                        </div>
+
+                        <div class="f-links">
+                            <a href="#" style="width: 20px; padding-right: 10px;"><span class="icon-instagram"></span></a>
+                        </div>
+
+                        <div class="f-links">
+                            <a href="#" style="width: 20px; padding-right: 10px;"><span class="icon-linkedin-in"></span></a>
+                        </div>
+
+                        <div class="f-links">
+                            <a href="#" style="width: 20px; padding-right: 10px;"><span class="icon-twitter"></span></a>
+                        </div>
+
+                        <div class="f-links">
+                            <a href="#" style="width: 20px; padding-right: 10px;"><span class="icon-telegram-plane"></span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-menu">
+                    <h2 style="font-size: 22px;">Links</h2>
+                    <div class="fmenu">
+                        <p><a style="font-size: 20px;" href="../../index_pagina.html">Inicio</a></p>
+                        <p><a style="font-size: 20px;" href="../../servicios/principal/index_servicios.html">Servicios</a></p>
+                        <p><a style="font-size: 20px;" href="../../Proyectos.html">Proyectos</a></p>
+                        <p><a style="font-size: 20px;" href="../../index_clases.php">Clases</a></p>
+                    </div>
+                </div>
+
+                <div class="top-products-links">
+                    <h2 style="font-size: 22px;">Cursos</h2>
+                    <div class="flinks">
+                        <p><a style="font-size: 20px;" href="../../index_clases.php">Primaria</a></p>
+                        <p><a style="font-size: 20px;" href="../../index_clases.php">Secundaria</a></p>
+                        <p><a style="font-size: 20px;" href="../../index_clases.php">Universidad</a></p>
+                        <p><a style="font-size: 20px;" href="../../index_clases.php">Extra clases</a></p>
+                    </div>
+                </div>
+
+                <div class="useful-links">
+                    <h2 style="font-size: 22px;">Nosotros</h2>
+                    <div class="Qlinks">
+                        <p><a style="font-size: 20px;" href="../../error404/index_error.html">¿Que somos?</a></p>
+                        <p><a style="font-size: 20px;" href="../../error404/index_error.html">TecnoPrector team</a></p>
+                        <p><a style="font-size: 20px;" href="../../error404/index_error.html">Creadores</a></p>
+                      
+                    </div>
+                </div>
+
+                <div class="master-cards">
+                    <h2 style="font-size: 22px;">Donación😊</h2>
+                    <div class="payment-cards">
+                        <div class="payment-link">
+                            <a href="#" style="width: 50px; height: 50px;"><span class="icon-cc-amazon-pay"></span></a>
+                        </div>
+
+                        <div class="payment-link">
+                            <a href="#"><span class="icon-cc-mastercard"></span></a>
+                        </div>
+
+                        <div class="payment-link">
+                            <a href="#"><span class="icon-cc-paypal"></span></a>
+                        </div>
+
+                        <div class="payment-link">
+                            <a href="#"><span class="icon-cc-stripe"></span></a>
+                        </div>
+
+                        <div class="payment-link">
+                            <a href="#"><span class="icon-cc-visa"></span></a>
+                        </div>
+
+                        <div class="payment-link">
+                            <a href="#"><span class="icon-cc-discover"></span></a>
+                        </div>
+
+                        <div class="payment-link">
+                            <a href="#"><span class="icon-cc-jcb"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <p style="font-size: 20px;">Creado por <a href="https://www.youtube.com/channel/UCr4TC9YxsDZwzwIxnZOVlBw" target="_blank">TecnoPrector team</a> |
+            &copy; 2023 todos los derechos reservados</p>
+    </footer>
+</div>   
+
+<script src="../../../js/script.js"></script>
+<script src="../../../js/library.js"></script>
+  
+</body>
+</html>
