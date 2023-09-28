@@ -81,4 +81,9 @@ $(function () {
     carouselTrack.style.transform = `translateX(-${sectionWidth * index}px)`;
   }
 
+  /* SECCION FLOTANTE */
+  function mostrarSeccion() {
+    var seccion = document.querySelector('.seccion-encima');
+    seccion.style.display = 'block';
+  }
   

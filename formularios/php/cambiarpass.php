@@ -31,7 +31,7 @@ if ($clave != $clave2) {
     alert("Las contraseñas no coinciden");
     window.history.go(-1);
     </script>';
-} elseif ($usu == $traer_clave) {
+} elseif ($usu == $clave_capturada) {
     $nueva_clave = mysqli_query($conexion, "UPDATE usuarios SET password = '$clave2' WHERE password = '$usu' and usuario = '$usuario'"); // -----------------------------
 
     echo '<script>
