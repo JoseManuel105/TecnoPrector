@@ -9,7 +9,7 @@
         // echo "Error, No tiene Permiso Para Ingresar A La Aplicacion";
         header('Location:../../formularios/html/mensajepermiso.html');
         die();
-        }
+  }
         ?>
 
     <h2> <a href="../../formularios/php/cerrarsesion.php" class="cerrar"> Cerrar Sesion </a> </h2>

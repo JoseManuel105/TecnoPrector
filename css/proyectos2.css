@@ -1,0 +1,617 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+  background-color: #0E0E1A;
+}
+
+
+
+
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(../img/fondo_clases4.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    padding: 100px 0px 0px 0px;
+   
+}
+
+.menu{
+    position: absolute;
+
+}
+
+.header-txt{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.header-txt h1, span, h3{
+    font-size: 110px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #0E0E1A;
+    margin-bottom: 15px;
+}
+
+.header-txt h1{
+    text-shadow: 1px 3px 25px rgb(200, 193, 193);
+}
+
+.header-dir .dir{
+    text-shadow: 1px 3px 25px rgb(80, 32, 255);
+}
+
+
+.header-txt span{
+    font-size: 25px;
+    color: #1f1f96;
+    font-weight: bold;
+    text-shadow: 1px 3px 25px rgb(0, 0, 0);
+}
+
+.header-txt p{
+    color: #fff;
+    padding: 0 250px;
+    margin: 25px 0;
+}
+
+.header-txt .btn-1{
+    display: inline-block;
+    padding: 16px 30px;
+    background-color:#321ca0;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 25px 0;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+.btn-1:hover{
+transform: scale(1.1);
+transition: 1s;
+color: white;
+background-color: black;
+}
+
+.header-dir{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.dir h3{
+    font-size: 10px;
+}
+
+.dir p{
+    font-size: 22px;
+    color: #fff9ED;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+.price{
+
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #44444C;
+    max-width: 1100px;
+}
+
+.price-1{
+    height: 100px;
+    width: 300px;
+    border-right: 1px solid #44444C;
+    padding: 20px;
+
+}
+
+.price-1:last-child{
+    border: 0;
+}
+
+.price-1 p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.price-1 h3{
+    color: #fff9ED;
+    font-size: 24px;
+   
+}
+
+.adventur{
+
+padding: 100px 0;
+text-align: center;
+
+}
+
+span{
+    color: #1f1f96;
+    font-size: 30px;
+}
+
+h2{
+    color: #fff9ED;
+    font-size: 70px;
+    line-height: 70px;
+    margin-bottom: 35px;
+}
+
+.adventer-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.adventer-1{
+    padding: 25px 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adventer-1 img{
+    width: 170px;
+    margin: -120px 0 30px 0;
+}
+
+.adventer-1 h3{
+
+color: #fff9ED;
+font-size: 40px;
+line-height: 45px;
+margin-bottom: 150px;
+
+}
+
+.bg-1{
+    background-image: url(../img/proyectos/fondo_luna.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28%;
+    height: 400px;
+    
+
+}
+
+.bg-2{
+    background-image: url(../img/proyectos/fondo_marte.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28%;
+    height: 400px;
+    
+}
+
+.bg-3{
+    background-image: url(../img/proyectos/fondo_nose.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28%;
+    height: 400px;
+    
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 17px 30px;
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.btn-1:hover{
+background-color: transparent;
+color: crimson;
+transform: perspective(1000px) rotate(360deg);
+}
+
+.general{
+    padding: 100px 0;
+    display: flex;
+  
+}
+
+.about{
+    padding: 50px 0;
+}
+
+.about-content{
+    display: flex;
+    align-items: center;
+}
+
+.about-txt{
+    flex-basis: 50%;
+    padding-right: 35px;
+}
+
+.about-txt span{
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1f1f96;
+
+}
+
+.about-txt h2{
+    font-size: 35px;
+    color: #ffffff;
+    margin: 15px 0;
+    line-height: 1;
+}
+
+hr{
+    border: 1px solid #1f1f96;
+    width: 10%;
+    margin-bottom: 30px;
+}
+
+.about-img{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.about-img img{
+    width: 500px;
+    border-radius: 25px;
+}
+
+
+.about-txt p{
+    font-size: 22px;
+    color: #FFFFFF;
+text-shadow: 0 0 5px #fffffff1, 0 0 10px #ffffffe8, 0 0 15px #ffffffea, 0 0 20px #fbfff9ec, 0 0 30px #ffffffea, 0 0 40prgba(255, 255, 255, 0.919)ff, 0 0 55px #ffffffea, 0 0 75px #fdfffde4;
+}
+
+
+.general-img{
+width: 50%;
+text-align: center;
+}
+
+.general-img img{
+width: 500px;
+}
+
+.general-txt{
+width: 50%;
+}
+
+.general-txt p{
+
+font-size: 18px;
+color: #fff9ED;
+margin-bottom: 50px;
+
+}
+
+#banner1{
+    box-shadow: rgba(42, 184, 10, 0.65) 0px 30px 60px -12px inset, rgba(25, 179, 14, 0.9) 0px 18px 36px -18px inset;
+}
+
+#banner2{
+    box-shadow: rgba(184, 10, 10, 0.65) 0px 30px 60px -12px inset, rgba(222, 37, 37, 0.9) 0px 18px 36px -18px inset;
+}
+
+#banner3{
+    box-shadow: rgba(10, 56, 184, 0.65) 0px 30px 60px -12px inset, rgba(14, 140, 179, 0.9) 0px 18px 36px -18px inset;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+    url("../img/proyectos/Afrohot.gif");
+}
+
+.banner{
+    padding: 150px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+    url("../img/proyectos/Éden_video.gif");
+    box-shadow: rgba(42, 184, 10, 0.65) 0px 30px 60px -12px inset, rgba(25, 179, 14, 0.9) 0px 18px 36px -18px inset;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.banner .valle {
+    text-shadow: 1px 3px 25px rgb(0, 0, 0);
+    color: white;
+
+}
+
+.banner .valle2{
+    color: black;
+    text-shadow: 1px 3px 25px rgb(74, 228, 19);
+}
+
+.banner .gymazo{
+  color: crimson;
+  text-shadow: 1px 3px 25px rgb(228, 19, 19);
+}
+
+.banner .gymazo2{
+  color: black;
+  text-shadow: 1px 3px 25px rgb(228, 19, 19);
+}
+
+.banner .espacial{
+    text-shadow: 1px 3px 25px rgb(19, 82, 228);
+}
+
+.banner .espacial2{
+color: #000000;
+text-shadow: 1px 3px 25px rgb(23, 25, 174);
+}
+
+.plan{
+
+padding: 100px 0;
+text-align: center;
+
+}
+
+.plan-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-1{
+
+padding: 25px;
+}
+
+.plan-1 img{
+
+width: 40px;
+height: 40px;
+margin-bottom: 25px;
+}
+
+.plan-1 h3{
+    color: #fff9ED;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.plan-1 p{
+
+font-size: 10px;
+color: #fff9ED;
+
+}
+
+/* RESPONSIVE */
+
+@media (max-width:991px){
+
+
+.header{
+    max-width: 1100px;
+    min-height: 0vh;
+}
+
+.header-content{
+    padding: 100px 10px 50px 0px;
+}
+
+.header-txt{
+    margin-bottom: 15px;
+}
+
+.header-txt h1{
+    font-size: 60px;
+}
+
+.header-txt p{
+padding: 0;
+margin: 15px 0;
+}
+
+.header-dir{
+    flex-direction: column;
+}
+
+.dir p{
+    font-size: 18px;
+}
+
+
+.price-1{
+
+height: 80px;
+width: 60%;
+
+}
+
+.price-1 p{
+font-size: 15px;
+}
+
+.price-1 h3{
+font-size: 20px;
+}
+
+#pepote{
+    display: none;
+}
+
+.adventer{
+padding: 30px;
+}
+
+h2{
+    margin-bottom: 25px;
+}
+
+.adventer-content{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.adventer-1{
+width: 70%;
+margin-bottom: 130px;
+}
+
+.adventer-1:last-child{
+    margin-bottom: 0;
+}
+
+.about{
+    padding: 30px;
+}
+
+hr{
+    display: none;
+}
+
+.about-img{
+    flex-basis: 40%;
+    
+}
+
+.about-img img{
+    width: 400px;
+    
+}
+
+.about-content{
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-txt{
+   padding-bottom: 25px;
+}
+
+.about-txt p{
+    font-size: 18px;
+}
+
+.general{
+    padding:30px 2px 30px 2px;
+    flex-direction: column;
+}
+
+
+
+.general-img{
+    width: 100%;
+    order: 2;
+}
+
+.general-img img{
+    width: 100%;
+}
+
+.general-txt{
+    width: 90%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.general-txt p{
+margin-bottom: 25px;
+}
+
+#oh h2{
+
+    font-size: 60px;
+
+}
+.banner{
+padding: 30px;
+}
+
+.plan{
+    padding: 30px;
+}
+
+.plan-content{
+    flex-direction: column;
+}
+
+.plan-1{
+    padding: 25px 100px;
+}
+
+.navbar{
+    width: 100%;
+    overflow: hidden;
+}
+
+.home #hero{
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.home{
+    overflow: hidden;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

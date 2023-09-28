@@ -53,6 +53,12 @@
 
 </center> -->
 
+    <div class="video-bg">
+     <video autoplay loop muted class="mivideo">
+      <source src="../../videos/7btrrd.mp4" type="video/mp4">
+    Tu navegador no es compatible con esta pagina.    </video>
+    </div>
+
     <div class="login-box">
       <h2>Cambiar Contraseña</h2>
 
@@ -61,27 +67,28 @@
       <form action="../php/cambiarpass.php" method="post">
 
             <div class="user-box">
-              <input type="password" name="usu" required="">
-              <label>Contraseña Actual</label>
+              <input type="text" name="clave1" required="">
+              <label>Ingresar La Contraseña Actual</label>
             </div> 
 
             <div class="user-box">
-              <input type="password" name="clave" required="">
-              <label>Contraseña Nueva</label>
+              <input type="text" name="clave" required="">
+              <label>Ingresar La Contraseña Nueva</label>
             </div>
 
             <div class="user-box">
-              <input type="password" name="clave2" required="">
+              <input type="text" name="clave2" required="">
               <label>Confirmar Contraseña</label>
             </div>
 
-            <a href="#">
+              <a href="#">
               <span></span>
               <span></span>
               <span></span>
               <span></span>
-              <input type="submit" class="boton" name="boton" value="Cambiar"> 
-            </a>
+              <input type="submit" class="boton" name="boton" value="Cambiar">
+              <!-- Enviar -->
+              </a>
 
         </form>
     </div> 
