@@ -1,26 +1,78 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Digital</title>
+  <link rel="stylesheet" href="../principal/cabeza/cabeza.css">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body style="padding-top: 0px; background-color: #461356;">  
+ 
+  <nav class="navbar" style="width: 1300px; height: 60px; padding: 10px;">
+    <div class="logo">
+        <a href="../../index_pagina.html" style="font-size: 30px; padding-right: 20px;">Tecno<span class="opa" style="font-size: 30px; padding-right: 20px;">Prector</span></a>
+    </div>
+
+    <ul class="nav-items">
+        <li><a style="font-size: 18px; padding-right: 10px;" href="../../index_pagina.html">Inicio</a></li>
+        <li><a style="font-size: 18px; padding-right: 10px;" href="../../servicios/principal/index_servicios.html">Servicios</a></li>
+        <li><a style="font-size: 18px; padding-right: 10px;" href="../../Proyectos.html">Proyectos</a></li>
+        <li><a style="font-size: 18px; padding-right: 10px;" href="../../index_clases.php">Clases</a></li>
+        
+    </ul>
+
+    <div class="search-box" style="width: 300px; height: 35px;">
+        <div class="search-icon">
+            <span class="icon-search"></span>
+        </div>
+        <input type="text" placeholder="Buscar..." style="width: 300px; height: 35px; padding-top: -40px;">
+    </div>
+
+    <div class="icon-links" style="padding-left: 30px;">
+        <div  style="padding-right: 10px;" id="search-btn"><span class="icon-search" style="width: 20px; height: 20px;"></span></div>
+        <div  style="padding-right: 10px;" id="customer-center"><span class="icon-phone-alt"></span></div>
+        <div  style="padding-right: 10px;" id="icon-shopping-cart"><span class="icon-cart-arrow-down"><span id="item-counter">0</span></div>
+        <div  style="padding-right: 10px;" id="login-or-signup"><span class="icon-user"></div>
+        <div  style="padding-right: 10px;" id="toggle-bar"><span class="toggler"></span></div>
+    </div>
+  </nav>
+
+  <script src="../../js/script.js"></script>
+  <script src="../../js/library.js"></script>
+  
+</body>
+</html>
+
+<br><br><br><br><br>
+
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <title>Login</title>
+  <title>Formulario</title>
 <link rel="stylesheet" href="../css/formulario.css">
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
 
 </head>
 
-<body>
+<body style="font-family: 'Montserrat', sans-serif;">
 	
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
 		<form action="../php/registraruser.php" method="post">
+			
+			<br><br>
+
 			<h1>Crear Una Cuenta</h1>
+
 			<div class="social-container">
 				<a href="https://es-la.facebook.com/" class="social1"><i class="fab fa-facebook-f"></i></a>
 				<a href="https://www.google.com/intl/es/account/about/" class="social2"><i class="fab fa-google-plus-g"></i></a>
 				<a href="https://co.linkedin.com/" class="social3"><i class="fab fa-linkedin-in"></i></a>
-			</div>
+			</div> 
 			<span>O use su correo electronico para Registrarse</span>
 			<input name="nombre2" type="text" placeholder="Nombre" required/>
 			<input name="usuario2" type="text" placeholder="Usuario" required/>
@@ -31,8 +83,8 @@
 				<option value="maes" name="maes">Maestro</option>
 				<option value="estu" name="estu">Estudiante</option>
 			</select>
-			<br>
-			<button>Registrarse</button>
+			<button style="font-family: 'Montserrat', sans-serif;">Registrarse</button>
+			<br><br>	
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
@@ -47,20 +99,20 @@
 			<input name="usuario" type="text" placeholder="Usuario" required/>
 			<input name="password" type="password" placeholder="Contraseña" required/>
 			<a href="#" class="olvidaste">¿Olvidaste tu Contraseña?</a>
-			<button>Acceder</button>
+			<button style="font-family: 'Montserrat', sans-serif;">Acceder</button>
 		</form>
 	</div>
 	<div class="overlay-container">
 		<div class="overlay">
 			<div class="overlay-panel overlay-left">
 				<h1>¡Bienvenido de Nuevo!</h1>
-				<p>Para mantenerte conectado a la multi-academia TecnoPrector, inicia sesion y ve las ultimas noticias sobre la universidad</p>
-				<button class="ghost" id="signIn">Iniciar Sesion</button>
+				<p style="color: white; font-weight: 400; font-size: 15px; font-family: 'Montserrat', sans-serif;"">Para mantenerte conectado a la multi-academia TecnoPrector, inicia sesion y ve las ultimas noticias sobre la universidad</p>
+				<button class="ghost" id="signIn" style="font-family: 'Montserrat', sans-serif;">Iniciar Sesion</button>
 			</div>
 			<div class="overlay-panel overlay-right">
 				<h1>¡Hola, amantes de la disciplina!</h1>
-				<p>Ingrese sus datos para crear una cuenta con nosotros y comenzar un camino del aprendizaje multidisciplinario</p>
-				<button class="ghost" id="signUp">Registrarse</button>
+				<p style="color: white; font-weight: 400; font-size: 15px; font-family: 'Montserrat', sans-serif;">Ingrese sus datos para crear una cuenta con nosotros y comenzar un camino del aprendizaje multidisciplinario.</p>
+				<button class="ghost" id="signUp" style="font-family: 'Montserrat', sans-serif;">Registrarse</button>
 			</div>
 		</div>
 	</div>

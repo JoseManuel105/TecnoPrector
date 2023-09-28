@@ -55,7 +55,7 @@
 
     <div class="video-bg">
      <video autoplay loop muted class="mivideo">
-      <source src="../../videos/fondos/7btrrd.mp4" type="video/mp4">
+      <source src="../../videos/7btrrd.mp4" type="video/mp4">
     Tu navegador no es compatible con esta pagina.    </video>
     </div>
 
