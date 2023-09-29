@@ -25,7 +25,8 @@ if ($clave != $clave2) {
     window.history.go(-1);
 
     </script>';
-} elseif ($usu == $clave_capturada) {
+
+} elseif ($usu == $traer_clave) {
     $nueva_clave = mysqli_query($conexion, "UPDATE usuarios SET password = '$clave' WHERE password = '$usu'"); // -----------------------------
 
     echo '<script>
@@ -43,4 +44,8 @@ if ($clave != $clave2) {
 
     </script>';
 }
-?> 
+?>
+
+    
+</body>
+</html>
