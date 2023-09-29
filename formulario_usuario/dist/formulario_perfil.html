@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>¡Registra tu perfil!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="row header">
+    <h1>Perfil de usuario &nbsp;</h1>
+    <h3>¡Nos gustaría saber más de ti!</h3>
+  </div>
+  <div class="row body">
+    <form action="seccion_perfil_usuario.php" method="post" enctype="multipart/form-data">
+      <ul>
+        
+        <li>
+          <p class="left">
+            <label for="first_name">Nombre</label>
+            <input type="text" name="nombre" placeholder="nombre"/>
+          </p>
+          <p class="pull-right">
+            <label for="last_name">Apellido</label>
+            <input type="text" name="apellido" placeholder="apellido"/>      
+          </p>
+          <p class="left">
+            <label for="first_name">Información</label>
+            <input type="text" name="informacion" placeholder="Cuentanos algo..."/>
+          </p>
+          <p class="pull-right">
+            <label for="last_name">Dirección</label>
+            <input type="text" name="direccion" placeholder="¿De donde eres?"/>      
+          </p>
+          <p class="left">
+            <label for="first_name">Telefono</label>
+            <input type="number" name="telefono" placeholder="Celular"/>
+          </p>
+          <p class="pull-right">
+            <label for="last_name">Hobbits</label>
+            <input type="text" name="trabajo" placeholder="¿A que te dedicas?" />      
+          </p>
+          <p class="left">
+            <label for="first_name">Nacimiento</label>
+            <input type="date" name="nacimiento" placeholder="Cuando naciste" />
+          </p>
+          <p class="pull-right">
+            <label for="last_name">Comida</label>
+            <input type="text" name="comida" placeholder="comida preferida" />      
+          </p>
+        </li>
+        
+        <li>
+          <p>
+            <label for="email"> <span class="req">*</span></label>
+            <input type="email" name="correo" placeholder="john.smith@gmail.com" required/>
+          </p>
+        </li>        
+        <li><div class="divider"></div></li>
+        <li>
+          <p>
+            <label for="image">Imagen</label>
+            <input type="file" name="archivo" required>
+          </p>
+        </li>
+        <li><div class="divider"></div></li>
+        <li>
+          <label for="comments">comments</label>
+          <textarea cols="46" rows="3" name="comments"></textarea>
+        </li>
+        
+        <li>
+          <input class="btn btn-submit" type="submit" value="Submit" />
+        
+        </li>
+        
+      </ul>
+    </form>  
+  </div>
+</div>
+<!-- partial -->
+
+
+  
+</body>
+</html>

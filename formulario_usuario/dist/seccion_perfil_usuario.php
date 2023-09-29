@@ -1,3 +1,45 @@
+<?php
+	include("conexion.php");
+
+	
+	$nombre=$_POST["nombre"];
+	$apellido=$_POST["apellido"];
+	$informacion=$_POST["informacion"];
+	$direccion=$_POST["direccion"];
+	$telefono=$_POST["telefono"];
+	$trabajo=$_POST["trabajo"];
+	$nacimiento=$_POST["nacimiento"];
+	$comida=$_POST["comida"];
+	$correo=$_POST["correo"];
+
+
+	$nombre_img=$_FILES['archivo']['name'];
+	$tipo_img=$_FILES['archivo']['type'];
+	$tam_img=$_FILES['archivo']['size'];
+    
+
+	if ($tam_img<=2000000)
+{
+
+	if ($tipo_img=="image/jpeg" || $tipo_img=="image/png" || $tipo_img=="image/gif")
+	{
+			$carpeta=$_SERVER['DOCUMENT_ROOT'].'/formulario_usuario/img/';
+
+			move_uploaded_file($_FILES['archivo']['tmp_name'], $carpeta.$nombre_img);
+		
+		 mysqli_query($conexion,"insert into galeria(nombre,apellido,informacion,direccion,telefono,trabajo,nacimiento,comida,correo, archivo) values ('$_POST[nombre]','$_POST[apellido]','$_POST[informacion]','$_POST[direccion]','$_POST[telefono]','$_POST[trabajo]','$_POST[nacimiento]','$_POST[comida]','$_POST[correo]','$nombre_img')") or die("Problemas en el select".mysqli_error($conexion));
+
+  		
+
+	}else
+
+	        echo "nose";
+	
+}else
+     echo "sisoy";
+	
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -230,6 +272,10 @@ Copiar esto
     background: linear-gradient(45deg, #FF2DFD, #40A7FF);
 }
 
+span{
+	font-weight: bold;
+}
+
 /* adactacion a dispositivos */
 @media (max-width: 750px) {
     .seccion-perfil-usuario .lista-datos {
@@ -258,49 +304,53 @@ Copiar esto
         margin-top: 0;
     }
 }
+
+
 </style>
     <!--==========================
 =            html            =
 ===========================-->
+
+
     <section class="seccion-perfil-usuario">
         <div class="perfil-usuario-header">
             <div class="perfil-usuario-portada">
                 <div class="perfil-usuario-avatar">
-                    <img src="http://localhost/multimedia/relleno/img-c9.png" alt="img-avatar">
-                    <button type="button" class="boton-avatar">
-                        <i class="far fa-image"></i>
-                    </button>
+					
+                    <img src="../img/<?php echo $row['archivo'];?>" alt="image">
+                    
                 </div>
                 <button type="button" class="boton-portada">
-                    <i class="far fa-image"></i> Cambiar fondo
+                   <i class="far fa-image"></i> Cambiar fondo 
                 </button>
             </div>
         </div>
         <div class="perfil-usuario-body">
+    
             <div class="perfil-usuario-bio">
-                <h3 class="titulo">Maria Alejandra De la Cruz</h3>
-                <p class="texto"> ¿Tienes algo que compartir? comparte algo con los otros usuarios.</p>
+                <h3 class="titulo"><?php echo $nombre ?></h3>
+                <p class="texto"><?php echo $informacion ?> </p>
             </div>
             <div class="perfil-usuario-footer">
                 <ul class="lista-datos">
-                    <li><i class="icono fas fa-map-signs"></i> Direccion de usuario:</li>
-                    <li><i class="icono fas fa-phone-alt"></i> Telefono:</li>
-                    <li><i class="icono fas fa-briefcase"></i> Trabaja en.</li>
-                    <li><i class="icono fas fa-building"></i> Cargo</li>
+                    <li><i class="icono fas fa-map-signs"></i> <span>Direccion de usuario:</span> <?php echo $direccion ?></li>
+                    <li><i class="icono fas fa-phone-alt"></i> <span>Telefono:</span> <?php echo $telefono ?></li>
+                    <li><i class="icono fas fa-briefcase"></i> <span>Trabaja en:</span> <?php echo $trabajo ?></li>
                 </ul>
                 <ul class="lista-datos">
-                    <li><i class="icono fas fa-map-marker-alt"></i> Ubicacion.</li>
-                    <li><i class="icono fas fa-calendar-alt"></i> Fecha nacimiento.</li>
-                    <li><i class="icono fas fa-user-check"></i> Registro.</li>
-                    <li><i class="icono fas fa-share-alt"></i> Redes sociales.</li>
+                    <li><i class="icono fas fa-map-marker-alt"></i> <span>nacimiento:</span> <?php echo $nacimiento ?></li>
+                    <li><i class="icono fas fa-calendar-alt"></i> <span>Comida:</span> <?php echo $comida ?></li> 
+					<li><i class="icono fas fa-calendar-alt"></i> <span>Correo:</span> <?php echo $correo ?></li> 
+                    
                 </ul>
             </div>
             <div class="redes-sociales">
-                <a href="" class="boton-redes facebook fab fa-facebook-f"><i class="icon-facebook"></i></a>
-                <a href="" class="boton-redes twitter fab fa-twitter"><i class="icon-twitter"></i></a>
-                <a href="" class="boton-redes instagram fab fa-instagram"><i class="icon-instagram"></i></a>
+                <a href="facebook.com" class="boton-redes facebook fab fa-facebook-f"><i class="icon-facebook"></i></a>
+                <a href="https://twitter.com/?lang=es" class="boton-redes twitter fab fa-twitter"><i class="icon-twitter"></i></a>
+                <a href="https://www.instagram.com/" class="boton-redes instagram fab fa-instagram"><i class="icon-instagram"></i></a>
             </div>
         </div>
+      
     </section>
     <!--====  End of html  ====-->
 
