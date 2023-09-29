@@ -2,7 +2,6 @@
 * {
   outline: none;
   box-sizing: border-box;
-  
 }
 
 :root {
@@ -894,7 +893,7 @@ body.light-mode .video-bg:before {
 
 /* CARA */
 .carousel-container {
-  width: 800px;
+  width: 850px;
   height: 300px;
   overflow: hidden;
   
@@ -963,12 +962,3 @@ body.light-mode .video-bg:before {
 
 
 
-.seccion-encima {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: none; /* Para ocultar la sección inicialmente */
-}

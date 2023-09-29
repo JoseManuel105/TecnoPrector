@@ -15,58 +15,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clases</title>
-  <link rel="stylesheet" href="../../principal/cabeza/cabeza.css">
-  <link rel="stylesheet" href="../../style.css">
-</head>
-<body style="padding-top: 0px; background-color: black">  
- 
-  <nav class="navbar" style="width: 1300px; height: 60px; padding: 10px;">
-    <div class="logo">
-        <a href="../../../index_pagina.html" style="font-size: 30px; padding-right: 20px;">Tecno<span class="opa">Prector</span></a>
-    </div>
-
-    <ul class="nav-items">
-        <li><a style="font-size: 18px; padding-right: 10px;" href="../../index_pagina.html">Inicio</a></li>
-        <li><a style="font-size: 18px; padding-right: 10px;" href="../../servicios/principal/index_servicios.html">Servicios</a></li>
-        <li><a style="font-size: 18px; padding-right: 10px;" href="../../Proyectos.html">Proyectos</a></li>
-        <li><a style="font-size: 18px; padding-right: 10px;" href="../../clases/index_clases.html">Clases</a></li>
-        
-    </ul>
-
-    <div class="search-box" style="width: 300px; height: 35px;">
-        <div class="search-icon">
-            <span class="icon-search"></span>
-        </div>
-        <input type="text" placeholder="Buscar...">
-    </div>
-
-    <div class="icon-links" style="padding-left: 30px;">
-        <div  style="padding-right: 10px;" id="search-btn"><span class="icon-search" style="width: 20px; height: 20px;"></span></div>
-        <div  style="padding-right: 10px;" id="customer-center"><span class="icon-phone-alt"></span></div>
-        <div  style="padding-right: 10px;" id="icon-shopping-cart"><span class="icon-cart-arrow-down"><span id="item-counter">0</span></div>
-        <div  style="padding-right: 10px;" id="login-or-signup"><span class="icon-user"></div>
-        <div  style="padding-right: 10px;" id="toggle-bar"><span class="toggler"></span></div>
-    </div>
-  </nav>
-
-  <script src="../../js/script.js"></script>
-  <script src="../../js/library.js"></script>
-  
-</body>
-</html>
-
-<br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

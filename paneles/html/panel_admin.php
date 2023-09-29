@@ -58,8 +58,8 @@
       <div class="header-menu">
        <a class="menu-link is-active" href="#">Inicio</a>
        <a class="menu-link notify" href="#">Clases</a>
-       <a class="menu-link notify" href="#">Administrar</a>
-       <a class="menu-link notify" href="#">Historial</a>
+       <a class="menu-link" href="#">Notas</a>
+       <a class="menu-link notify" href="#">Asistencia</a>
       </div>
 
       <div class="search-bar">
@@ -68,12 +68,15 @@
 
       <div class="header-profile">
        <div class="notification">
-        <span class="notification-number"></span>
+        <span class="notification-number">3</span>
         <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell">
          <path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9M13.73 21a2 2 0 01-3.46 0" />
         </svg>
        </div>
-       
+       <svg viewBox="0 0 512 512" fill="currentColor">
+        <path d="M448.773 235.551A135.893 135.893 0 00451 211c0-74.443-60.557-135-135-135-47.52 0-91.567 25.313-115.766 65.537-32.666-10.59-66.182-6.049-93.794 12.979-27.612 19.013-44.092 49.116-45.425 82.031C24.716 253.788 0 290.497 0 331c0 7.031 1.703 13.887 3.006 20.537l.015.015C12.719 400.492 56.034 436 106 436h300c57.891 0 106-47.109 106-105 0-40.942-25.053-77.798-63.227-95.449z" />
+       </svg>
+       <img class="profile-img" src="https://images.unsplash.com/photo-1600353068440-6361ef3a86e8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="">
       </div>
 
      </div>
@@ -99,27 +102,52 @@
            <path d="M243.158 61.361v-57.6c0-3.2 4-4.9 6.7-2.9l118.4 87c2 1.5 2 4.4 0 5.9l-118.4 87c-2.7 2-6.7.2-6.7-2.9v-57.5c-87.8 1.4-158.1 76-152.1 165.4 5.1 76.8 67.7 139.1 144.5 144 81.4 5.2 150.6-53 163-129.9 2.3-14.3 14.7-24.7 29.2-24.7 17.9 0 31.8 15.9 29 33.5-17.4 109.7-118.5 192-235.7 178.9-98-11-176.7-89.4-187.8-187.4-14.7-128.2 84.9-237.4 209.9-238.8z" />
           </svg>
           Formulario
-          <span class="notification-number updates"></span>
+          <span class="notification-number updates">3</span>
          </a>
 
         </div>
        </div>
        <div class="side-wrapper">
-        <div class="side-title">Herramientas</div>
+        <div class="side-title">Materias</div>
         <div class="side-menu">
-         
+         <a href="#">
+          <svg viewBox="0 0 488.455 488.455" fill="currentColor">
+           <path d="M287.396 216.317c23.845 23.845 23.845 62.505 0 86.35s-62.505 23.845-86.35 0-23.845-62.505 0-86.35 62.505-23.845 86.35 0" />
+           <path d="M427.397 91.581H385.21l-30.544-61.059H133.76l-30.515 61.089-42.127.075C27.533 91.746.193 119.115.164 152.715L0 396.86c0 33.675 27.384 61.074 61.059 61.074h366.338c33.675 0 61.059-27.384 61.059-61.059V152.639c-.001-33.674-27.385-61.058-61.059-61.058zM244.22 381.61c-67.335 0-122.118-54.783-122.118-122.118s54.783-122.118 122.118-122.118 122.118 54.783 122.118 122.118S311.555 381.61 244.22 381.61z" />
+          </svg>
+          Matematicas
+         </a>
+         <a href="#">
+          <svg viewBox="0 0 512 512" fill="currentColor">
+           <circle cx="295.099" cy="327.254" r="110.96" transform="rotate(-45 295.062 327.332)" />
+           <path d="M471.854 338.281V163.146H296.72v41.169a123.1 123.1 0 01121.339 122.939c0 3.717-.176 7.393-.5 11.027zM172.14 327.254a123.16 123.16 0 01100.59-120.915L195.082 73.786 40.146 338.281H172.64c-.325-3.634-.5-7.31-.5-11.027z" />
+          </svg>
+          Ciencias Naturales
+         </a>
+         <a href="#">
+          <svg viewBox="0 0 58 58" fill="currentColor">
+           <path d="M57 6H1a1 1 0 00-1 1v44a1 1 0 001 1h56a1 1 0 001-1V7a1 1 0 00-1-1zM10 50H2v-9h8v9zm0-11H2v-9h8v9zm0-11H2v-9h8v9zm0-11H2V8h8v9zm26.537 12.844l-11 7a1.007 1.007 0 01-1.018.033A1.001 1.001 0 0124 36V22a1.001 1.001 0 011.538-.844l11 7a1.003 1.003 0 01-.001 1.688zM56 50h-8v-9h8v9zm0-11h-8v-9h8v9zm0-11h-8v-9h8v9zm0-11h-8V8h8v9z" />
+          </svg>
+          Ciencias Sociales
+         </a>
+         <a href="#">
+          <svg viewBox="0 0 512 512" fill="currentColor">
+           <path d="M499.377 46.402c-8.014-8.006-18.662-12.485-29.985-12.613a41.13 41.13 0 00-.496-.003c-11.142 0-21.698 4.229-29.771 11.945L198.872 275.458c25.716 6.555 47.683 23.057 62.044 47.196a113.544 113.544 0 0110.453 23.179L500.06 106.661C507.759 98.604 512 88.031 512 76.89c0-11.507-4.478-22.33-12.623-30.488zM176.588 302.344a86.035 86.035 0 00-3.626-.076c-20.273 0-40.381 7.05-56.784 18.851-19.772 14.225-27.656 34.656-42.174 53.27C55.8 397.728 27.795 409.14 0 416.923c16.187 42.781 76.32 60.297 115.752 61.24 1.416.034 2.839.051 4.273.051 44.646 0 97.233-16.594 118.755-60.522 23.628-48.224-5.496-112.975-62.192-115.348z" />
+          </svg>
+          Lengua Materna
+         </a>
          <a href="#">
           <svg viewBox="0 0 512 512" fill="currentColor">
            <path d="M497 151H316c-8.401 0-15 6.599-15 15v300c0 8.401 6.599 15 15 15h181c8.401 0 15-6.599 15-15V166c0-8.401-6.599-15-15-15zm-76 270h-30c-8.401 0-15-6.599-15-15s6.599-15 15-15h30c8.401 0 15 6.599 15 15s-6.599 15-15 15zm0-180h-30c-8.401 0-15-6.599-15-15s6.599-15 15-15h30c8.401 0 15 6.599 15 15s-6.599 15-15 15z" />
            <path d="M15 331h196v60h-75c-8.291 0-15 6.709-15 15s6.709 15 15 15h135v-30h-30v-60h30V166c0-24.814 20.186-45 45-45h135V46c0-8.284-6.716-15-15-15H15C6.716 31 0 37.716 0 46v270c0 8.284 6.716 15 15 15z" />
           </svg>
-          Administrar Clases
+          Lengua Extrangera
          </a>
          <a href="#">
           <svg viewBox="0 0 512 512" fill="currentColor">
            <path d="M0 331v112.295a14.996 14.996 0 007.559 13.023L106 512V391L0 331zM136 391v121l105-60V331zM271 331v121l105 60V391zM406 391v121l98.441-55.682A14.995 14.995 0 00512 443.296V331l-106 60zM391 241l-115.754 57.876L391 365.026l116.754-66.15zM262.709 1.583a15.006 15.006 0 00-13.418 0L140.246 57.876 256 124.026l115.754-66.151L262.709 1.583zM136 90v124.955l105 52.5V150zM121 241L4.246 298.876 121 365.026l115.754-66.15zM271 150v117.455l105-52.5V90z" />
           </svg>
-          Administrar Usuarios
+          Artes Graficas
          </a>
         </div>
        </div>
@@ -214,13 +242,19 @@
          <ul>
           <li class="adobe-product">
            <div class="products">
-            BUSCAR ALUMNO
+            <svg viewBox="0 0 52 52" style="border:1px solid #3291b8">
+             <g xmlns="http://www.w3.org/2000/svg">
+              <path d="M40.824 52H11.176C5.003 52 0 46.997 0 40.824V11.176C0 5.003 5.003 0 11.176 0h29.649C46.997 0 52 5.003 52 11.176v29.649C52 46.997 46.997 52 40.824 52z" fill="#061e26" data-original="#393687" />
+              <path d="M12.16 39H9.28V11h9.64c2.613 0 4.553.813 5.82 2.44 1.266 1.626 1.9 3.76 1.9 6.399 0 .934-.027 1.74-.08 2.42-.054.681-.22 1.534-.5 2.561-.28 1.026-.66 1.866-1.14 2.52-.48.654-1.213 1.227-2.2 1.72-.987.494-2.16.74-3.52.74h-7.04V39zm0-12h6.68c.96 0 1.773-.187 2.44-.56.666-.374 1.153-.773 1.46-1.2.306-.427.546-1.04.72-1.84.173-.801.267-1.4.28-1.801.013-.399.02-.973.02-1.72 0-4.053-1.694-6.08-5.08-6.08h-6.52V27zM29.48 33.92l2.8-.12c.106.987.6 1.754 1.48 2.3.88.547 1.893.82 3.04.82s2.14-.26 2.98-.78c.84-.52 1.26-1.266 1.26-2.239s-.36-1.747-1.08-2.32c-.72-.573-1.6-1.026-2.64-1.36-1.04-.333-2.086-.686-3.14-1.06a7.36 7.36 0 01-2.78-1.76c-.987-.934-1.48-2.073-1.48-3.42s.54-2.601 1.62-3.761 2.833-1.739 5.26-1.739c.854 0 1.653.1 2.4.3.746.2 1.28.394 1.6.58l.48.279-.92 2.521c-.854-.666-1.974-1-3.36-1-1.387 0-2.42.26-3.1.78-.68.52-1.02 1.18-1.02 1.979 0 .88.426 1.574 1.28 2.08.853.507 1.813.934 2.88 1.28 1.066.347 2.126.733 3.18 1.16 1.053.427 1.946 1.094 2.68 2s1.1 2.106 1.1 3.6c0 1.494-.6 2.794-1.8 3.9-1.2 1.106-2.954 1.66-5.26 1.66-2.307 0-4.114-.547-5.42-1.64-1.307-1.093-1.987-2.44-2.04-4.04z" fill="#c1dbe6" data-original="#89d3ff" />
+             </g>
+            </svg>
+            Photoshop
            </div>
            <span class="status">
             <span class="status-circle green"></span>
-            Activo</span>
+            Updated</span>
            <div class="button-wrapper">
-            <button class="content-button status-button open">Buscar</button>
+            <button class="content-button status-button open">Open</button>
             <div class="menu">
              <button class="dropdown">
               <ul>
@@ -234,16 +268,20 @@
           </li>
           <li class="adobe-product">
            <div class="products">
-            
-            BUSCAR PROFESOR
+            <svg viewBox="0 0 52 52" style="border:1px solid #b65a0b">
+             <g xmlns="http://www.w3.org/2000/svg">
+              <path d="M40.824 52H11.176C5.003 52 0 46.997 0 40.824V11.176C0 5.003 5.003 0 11.176 0h29.649C46.997 0 52 5.003 52 11.176v29.649C52 46.997 46.997 52 40.824 52z" fill="#261400" data-original="#6d4c13" />
+              <path d="M30.68 39h-3.24l-2.76-9.04h-8.32L13.72 39H10.6l8.24-28h3.32l8.52 28zm-6.72-12l-3.48-11.36L17.12 27h6.84zM37.479 12.24c0 .453-.16.84-.48 1.16-.32.319-.7.479-1.14.479-.44 0-.827-.166-1.16-.5-.334-.333-.5-.713-.5-1.14s.166-.807.5-1.141c.333-.333.72-.5 1.16-.5.44 0 .82.16 1.14.48.321.322.48.709.48 1.162zM37.24 39h-2.88V18.96h2.88V39z" fill="#e6d2c0" data-original="#ffbd2e" />
+             </g>
+            </svg>
+            Illustrator
            </div>
          
            <span class="status">
             <span class="status-circle"></span>
-            Activo</span>
-            <!-- VENTANA FLOTANTE ABRE -->
+            Update Available</span>
            <div class="button-wrapper">
-            <button class="content-button status-button">Buscar</button>
+            <button class="content-button status-button">Update this app</button>
             <div class="pop-up">
              <div class="pop-up__title">Update This App
               <svg class="close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
@@ -252,9 +290,16 @@
               </svg>
              </div>
              <div class="pop-up__subtitle">Adjust your selections for advanced options as desired before continuing. <a href="#">Learn more</a></div>
-             
+             <div class="checkbox-wrapper">
+              <input type="checkbox" id="check1" class="checkbox">
+              <label for="check1">Import previous settings and preferences</label>
+             </div>
+             <div class="checkbox-wrapper">
+              <input type="checkbox" id="check2" class="checkbox">
+              <label for="check2">Remove old versions</label>
+             </div>
              <div class="content-button-wrapper">
-              <button class="content-button status-button open close">Cerrar</button>
+              <button class="content-button status-button open close">Cancel</button>
               <button class="content-button status-button">Continue</button>
              </div>
             </div>
@@ -267,19 +312,23 @@
               </ul>
              </button>
             </div>
-           </div> 
-           <!-- VENANA FLOTANTE CIERRA -->
+           </div>
           </li>
           <li class="adobe-product">
            <div class="products">
-
-            ARCHIVOS
+            <svg viewBox="0 0 52 52" style="border: 1px solid #C75DEB">
+             <g xmlns="http://www.w3.org/2000/svg">
+              <path d="M40.824 52H11.176C5.003 52 0 46.997 0 40.824V11.176C0 5.003 5.003 0 11.176 0h29.649C46.997 0 52 5.003 52 11.176v29.649C52 46.997 46.997 52 40.824 52z" fill="#3a3375" data-original="#3a3375" />
+              <path d="M27.44 39H24.2l-2.76-9.04h-8.32L10.48 39H7.36l8.24-28h3.32l8.52 28zm-6.72-12l-3.48-11.36L13.88 27h6.84zM31.48 33.48c0 2.267 1.333 3.399 4 3.399 1.653 0 3.466-.546 5.44-1.64L42 37.6c-2.054 1.254-4.2 1.881-6.44 1.881-4.64 0-6.96-1.946-6.96-5.841v-8.2c0-2.16.673-3.841 2.02-5.04 1.346-1.2 3.126-1.801 5.34-1.801s3.94.594 5.18 1.78c1.24 1.187 1.86 2.834 1.86 4.94V30.8l-11.52.6v2.08zm8.6-5.24v-3.08c0-1.413-.44-2.42-1.32-3.021-.88-.6-1.907-.899-3.08-.899-1.174 0-2.167.359-2.98 1.08-.814.72-1.22 1.773-1.22 3.16v3.199l8.6-.439z" fill="#e4d1eb" data-original="#e7adfb" />
+             </g>
+            </svg>
+            After Effects
            </div>
            <span class="status">
             <span class="status-circle green"></span>
-            Activo</span>
+            Updated</span>
            <div class="button-wrapper">
-            <button class="content-button status-button open">Buscar</button>
+            <button class="content-button status-button open">Open</button>
             <div class="menu">
              <button class="dropdown">
               <ul>
@@ -308,11 +357,7 @@
            </span>
            <div class="app-card__subtext">Usa esta herramienta para agregar nuevos usuarios.</div>
            <div class="app-card-buttons">
-
-            <!--SECCION FLOTANTE-->
-            <button class="content-button status-button" onclick="mostrarSeccion()" >Agregar</button>
-            <div class="seccion-encima"></div>
-            <!--SECCION FLOTANTE-->
+            <button class="content-button status-button">Agregar</button>
             <div class="menu"></div>
            </div>
           </div>
@@ -358,7 +403,7 @@
 
     <!-- partial -->
       <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
-      <script src="../js/panel_admin.js"></script>
+
 </body>
 </html>
 
