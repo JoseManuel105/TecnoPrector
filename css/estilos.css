@@ -5,6 +5,23 @@
     --color-title: #001A49;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 0rem;
+    overflow-x: hidden;
+  }
+
+html::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #000;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: rgb(0, 47, 255);
+} 
 
 .container {
     width: 90%;
