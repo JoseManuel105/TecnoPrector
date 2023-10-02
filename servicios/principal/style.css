@@ -47,6 +47,25 @@
   box-sizing: inherit;
 }
 
+html {
+  /* font-size: 62.5%; */
+  scroll-behavior: smooth;
+  scroll-padding-top: 0rem;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #000;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: rgba(0, 47, 255, 0.542);
+}
+
 body {
   padding-top: 3000px;
   font-size: 1.4rem;

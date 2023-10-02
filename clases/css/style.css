@@ -29,7 +29,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: rgb(0, 47, 255);
+  background: #2626a0;
 }
 
 body {
@@ -82,6 +82,11 @@ section {
 .btn:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.titulosclases{
+  color: aliceblue;
+  font-size: 30px;
 }
 
 .header {
