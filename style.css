@@ -23,19 +23,16 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     outline: none;
-    overflow: hidden;
 }
 
 html {
     scroll-behavior: smooth;
-    overflow: hidden;
 }
 
 body {
     display: grid;
     grid-template-columns: repeat(auto-fill,fit-content(600px));
     position: relative;
-    overflow: hidden;
 }
 
 .section-wrap {
