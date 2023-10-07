@@ -49,7 +49,7 @@
 <html lang="en" style="overflow: hidden;">
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Responsive Signup/Login form</title>
+  <title>Registro Clases</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,600" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
 
@@ -77,8 +77,9 @@
             </div>
             
             <div class="success-msg">
-               <p>Great! You are one of our members now</p>
-               <a href="#" class="profile">Your Profile</a>
+               <p>Bienvenido(a) A Las Clases Y Servicios Tecno Prector</p>
+               <br><br>
+               <a href="#" class="profile">Tus Clases</a>
             </div>
          </div>
 
@@ -88,7 +89,7 @@
 
             <!-- Login Form -->
             <div class="login form-peice switched">
-               <form class="login-form" action="#" method="post">
+               <form class="login-form" action="../php/validar2.php" method="post">
                   <div class="form-group">
                      <label for="loginemail" style="color: black;">Usuario</label>
                      <input type="text" name="usuario" id="loginemail" required>
@@ -109,7 +110,7 @@
 
             <!-- Signup Form -->
             <div class="signup form-peice">
-               <form class="signup-form" action="./php/registrar.php" method="post">
+               <form class="signup-form" action="php/registrar.php" method="post">
 
                   <div class="form-group">
                      <label for="name" style="color: black;">Nombre Completo</label>
@@ -154,7 +155,8 @@
                   </div>   
 
                   <div class="CTA">
-                     <input type="submit" value="Registrar" id="submit">
+                     <!-- <input type="submit" value="Registrar" id="submit"> -->
+                     <button type="submit" name="guardar" value="Guardando">Registrarse</button>
                      <a href="#" class="switch" style="color: black;">Tengo Una Cuenta</a>
                   </div>
                </form>

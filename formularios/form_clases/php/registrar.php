@@ -1,12 +1,32 @@
 <?php
 
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgistro Clases</title>
+</head>
+
+<body>
+<center>
+
+<?php
+
     include "../../php/conexion.php";
 
+    if (isset($_POST['guardar'])){
+
     $nombre = $_POST['nombre'];
-    $correo = $_POST['correo'];    
+    $correo = $_POST['correo'];     
     $contacto = $_POST['contacto'];
     $contraseña = $_POST['contraseña'];
     $area = $_POST['area'];
+
+    }
 
     if ($tipo == ""){
         echo "Ingrese Una Opcion Valida";
@@ -14,20 +34,20 @@
         exit();
     }
 
-    $insertar = "INSERT INTO estudiantes (nombre,correo,contacto,correo,contraseña,area) VALUES('$nombre','$correo','$contacto','$contraseña','$area')";
+    $insertar = "INSERT INTO estudiantes(nombre,correo,contacto,correo,contraseña,area) VALUES ('$nombre','$correo','$contacto','$contraseña','$area')";
+
     $verificar_usuario = mysqli_query($conexion, "SELECT * FROM estudiantes WHERE nombre = '$nombre'");
 
     if (mysqli_num_rows($verificar_usuario) > 0){
         echo '<script>
         
-            alert ("El Usuario Ya Se Encuentra Registrado");
+            alert ("El Estudiante Ya Se Encuentra Registrado");
             window.history.go(-1);
         
         </script>';
 
         exit();
     }
-
 
     $resultado = mysqli_query($conexion,$insertar);
 
@@ -43,3 +63,8 @@
     mysqli_close($conexion);
 
 ?>
+
+</center>
+</body>
+</html>
+
