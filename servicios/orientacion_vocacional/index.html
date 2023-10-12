@@ -3,23 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prector Games</title>
+  <title>Orientacion Vocacional</title>
   <link rel="stylesheet" href="../../principal/cabeza/cabeza.css">
   <link rel="stylesheet" href="../../../style.css">
+  <link rel="shortcut icon" href="../../logos/Logo_Prector-removebg-preview.png" type="image/x-icon">
 </head>
-<body style="padding-top: 0px; background-color: white;">  
+<body style="padding-top: 0px; background-color: rgba(255, 255, 255, 0.864);">  
  
   <nav class="navbar" style="width: 1300px; height: 60px; padding: 10px;">
     <div class="logo">
-        <a href="../../../index_pagina.html" style="font-size: 30px; padding-right: 20px;">Tecno<span class="opa">Prector</span></a>
+        <a href="../../index_pagina.html" style="font-size: 30px; padding-right: 20px;">Tecno<span class="opa">Prector</span></a>
     </div>
 
     <ul class="nav-items">
         <li><a style="font-size: 18px; padding-right: 10px;" href="../../index_pagina.html">Inicio</a></li>
         <li><a style="font-size: 18px; padding-right: 10px;" href="../principal/index_servicios.html">Servicios</a></li>
         <li><a style="font-size: 18px; padding-right: 10px;" href="../../Proyectos.html">Proyectos</a></li>
-        <li><a style="font-size: 18px; padding-right: 10px;" href="../../clases/index_clases.html">Clases</a></li>
-        
+        <li><a style="font-size: 18px; padding-right: 10px;" href="../../clases/index_clases.html">Clases</a></li>        
     </ul>
 
     <div class="search-box" style="width: 300px; height: 35px;">
@@ -31,9 +31,8 @@
 
     <div class="icon-links" style="padding-left: 30px;">
         <div  style="padding-right: 10px;" id="search-btn"><span class="icon-search" style="width: 20px; height: 20px;"></span></div>
-        <div  style="padding-right: 10px;" id="customer-center"><span class="icon-phone-alt"></span></div>
-        <div  style="padding-right: 10px;" id="icon-shopping-cart"><span class="icon-cart-arrow-down"><span id="item-counter">0</span></div>
-        <div  style="padding-right: 10px;" id="login-or-signup"><span class="icon-user"></div>
+        <a href="../../Proyectos2.html"><div  style="padding-right: 10px;" id="customer-center"><span class="icon-phone-alt"></span></div></a>
+        <a href="../../seccion-perfil-usuario.html"><div  style="padding-right: 10px;" id="login-or-signup"><span class="icon-user"></div></a>
         <div  style="padding-right: 10px;" id="toggle-bar"><span class="toggler"></span></div>
     </div>
   </nav>
@@ -44,8 +43,6 @@
 </body>
 </html>
 
-<br><br><br><br><br><br><br><br><br>
-
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -54,28 +51,72 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="../../css/style_card.css">
 
+  <style>
+
+    .imagengrande{
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: max-content;
+      background-color: black;
+    }
+
+  </style>
+
 </head>
 <body>
 
-  <section>
-    <img src="" alt="">
-  </section>
+  <!-- <section class="">
+    <img src="./image/estudiar.jpg" alt="" class="imagengrande">
+  </section> -->
 
+  <section class="home" id="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box" style="background: url(./image/estudiar.jpg) no-repeat;">
+
+                    <div class="content" style="width: 800px; height: 450px; padding: 40px; border-radius: 30px; position: relative; left: -400px;">
+                        <span style="color: white;">¿No Sabes Que Estudiar?</span>
+                        <h3 style="color: rgb(45, 45, 255);">Orientacion Vocacional</h3>
+                        <p style="color: white; font-size: 16px;"">Nunca debes dejar de aprender y motivarte, pero no podras aprender si no tomas algunos descansos y despejas tu mente, te diviertes y abres tu mente a otro mundo.   Despeja Tu Mente </p>
+
+                        <br><br>    
+
+                            <a href="#mas"> <button style="padding: 8px; font-size: 20px; border-radius: 20px; background-color: rgb(45, 45, 255) ; color: white; font-weight: 500; cursor: pointer;"> Saber Mas </button> </a> 
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <br id="mas"><br><br><br>
+
+  <center>
+    <h1 style="font-size: 40px; color: blue;">Consejos Orientacion Vocacional</h1>
+    </center>
+
+    <br><br><br>
+  
         <div class="container"> 
             <div class="slider">
 
                 <div class="box1 box">
                     <div class="bg"></div>
                     <div class="details">
-                        <h1>Descubrir tu Vocación</h1>
-                        <p>
+                        <h1 style="font-size: 50px;">Descubrir tu Vocación</h1>
+                        <br>
+                        <p style="font-size: 16px;">
                             Muchos confundimos los conceptos de “Vocación”, “Carrera” y “Trabajo”, pensando que son lo mismo. Sin embargo, no es así.
 
 La vocación va más allá de una carrera. Se refiere a la huella que queremos dejar, nuestro “llamado interior”.
 
 TODOS tenemos un llamado, pero a veces no es fácil identificarlo.
                         </p> <br><br><br>
-                        <b>Check Now</b    ton>
+                        <a href="#universidades"><button>Universidades Disponibles</button></a>
                     </div>
 
                     <div class="illustration"><div class="inner"></div></div>
@@ -85,13 +126,14 @@ TODOS tenemos un llamado, pero a veces no es fácil identificarlo.
                 <div class="box2 box">
                     <div class="bg"></div>
                     <div class="details">
-                        <h1>Elegir tu Carrera</h1>
-                        <p>
+                        <h1 style="font-size: 50px;">Elegir tu Carrera</h1>
+                        <br>
+                        <p style="font-size: 16px;">
                             Otro error común es pensar que solo hay UNA carrera en específico para nosotros. Que solamente UNA carrera se puede alinear a nuestra forma de ser.
 
 La Carrera vendría siendo “el escalón” para nuestro futuro, y lo más importante es identificar “¿Qué queremos lograr?” para definir las carreras que nos acercarán a eso.
                         </p>
-                        <button>Check Now</button>
+                        <a href="#universidades"><button>Universidades Disponibles</button></a>
                     </div>
 
                     <div class="illustration"><div class="inner"></div></div>
@@ -100,8 +142,9 @@ La Carrera vendría siendo “el escalón” para nuestro futuro, y lo más impo
                 <div class="box3 box">
                     <div class="bg"></div>
                     <div class="details">
-                        <h1>Encontrar tu trabajo ideal</h1>
-                        <p>
+                        <h1 style="font-size: 50px;">Tu trabajo ideal</h1>
+                        <br>
+                        <p style="font-size: 16px;">
                             La vida no solo se trata de trabajar, trabajar y trabajar.
 
 Para encontrar ese “trabajo ideal” es muy importante que analicemos nuestra forma de ser, nuestras fortalezas, nuestras habilidades y nuestros intereses y pasiones.
@@ -115,13 +158,12 @@ Para encontrar ese “trabajo ideal” es muy importante que analicemos nuestra 
                 <div class="box4 box">
                     <div class="bg"></div>
                     <div class="details">
-                        <h1>I'm the fourth Box</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. 
+                        <h1 style="font-size: 50px;">Se Feliz</h1>
+                        <br>
+                        <p style="font-size: 16px;">
+                            hay muchos factores que pueden intervenir a la hora de decidir que estudiar, pero procura siempre estudiar y dedicartee a lo que en verdad te gusta y lo que te hace sentir bien, y con todo esto, el dinero llegara por su cuenta.
                         </p>
-                        <button>Check Now</button>
+                        <a href="#universidades"><button>Universidades Disponibles</button></a>
                     </div>
 
                     <div class="illustration"><div class="inner"></div></div>
@@ -130,13 +172,12 @@ Para encontrar ese “trabajo ideal” es muy importante que analicemos nuestra 
                 <div class="box5 box">
                     <div class="bg"></div>
                     <div class="details">
-                        <h1>I'm the fifth Box</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. 
+                        <h1 style="font-size: 50px;">Busca lugares</h1>
+                        <br>
+                        <p style="font-size: 16px;">
+                            Busca lugares en los que te ves y quisieras estar, sea en que universidad o campus deseas estudiar, o en que tipo de departamento de campo laboral deseas trabajar, y recuerda el punto anterior, lo mas importante es que seas feliz.
                         </p>
-                        <button>Check Now</button>
+                        <a href="#universidades"><button>Universidades Disponibles</button></a>
                     </div>
 
                     <div class="illustration"><div class="inner"></div></div>
@@ -155,7 +196,7 @@ Para encontrar ese “trabajo ideal” es muy importante que analicemos nuestra 
             </div>
         </div>   
 
-        <br><br><br><br><br><br>
+        <br id="universidades"><br><br><br><br><br>
 
         <center>
         <h1 style="font-size: 40px; color: blue;">Las mejores universidades del pais</h1>
@@ -167,32 +208,32 @@ Para encontrar ese “trabajo ideal” es muy importante que analicemos nuestra 
         
         <section class="hero-section">
             <div class="card-grid">
-              <a class="card" href="https://unal.edu.co/" target="_blank">
+              <a class="card" href="https://medellin.unal.edu.co/" target="_blank">
                 <div class="card__background" style="background-image: url(./image/nacho.jpg)"></div>
                 <div class="card__content">
-                  <p class="card__category">Universidad</p>
+                  <p class="card__category">Universidad sede Medellin</p>
                   <h3 class="card__heading">Universidad Nacional De Colombia</h3>
                 </div>
               </a>
               <a class="card" href="https://www.udea.edu.co/" target="_blank">
                 <div class="card__background" style="background-image: url(./image/anti.jpg)"></div>
                 <div class="card__content">
-                  <p class="card__category">Universidad</p>
+                  <p class="card__category">Universidad Medellin</p>
                   <h3 class="card__heading">Universidad De Antioquia</h3>
                 </div>
               </a>
-              <a class="card" href="https://uniandes.edu.co/" target="_blank">
-                <div class="card__background" style="background-image: url(./image/andes.avif)"></div>
+              <a class="card" href="https://www.upb.edu.co/es/home" target="_blank">
+                <div class="card__background" style="background-image: url(./image/upb.jpg)"></div>
                 <div class="card__content">
-                  <p class="card__category">Universidad</p>
-                  <h3 class="card__heading">Universidad De Los Andes</h3>
+                  <p class="card__category">Universidad Medellin</p>
+                  <h3 class="card__heading">Universidad Pontificia Bolivariana</h3>
                 </div>
               </li>
-              <a class="card" href="https://www.icesi.edu.co/es/" target="_blank">
-                <div class="card__background" style="background-image: url(./image/icese.jpg)"></div>
+              <a class="card" href="https://www.ces.edu.co/" target="_blank">
+                <div class="card__background" style="background-image: url(./image/ces.jpg)"></div>
                 <div class="card__content">
-                  <p class="card__category">Universidad</p>
-                  <h3 class="card__heading">Universidad Icesi</h3>
+                  <p class="card__category">Universidad Medellin</p>
+                  <h3 class="card__heading">Universidad CES</h3>
                 </div>
               </a>
             <div>
@@ -204,31 +245,31 @@ Para encontrar ese “trabajo ideal” es muy importante que analicemos nuestra 
           <section class="hero-section">
             <div class="card-grid">
               <a class="card" href="https://unal.edu.co/" target="_blank">
-                <div class="card__background" style="background-image: url(./image/nacho.jpg)"></div>
+                <div class="card__background" style="background-image: url(./image/nachobogota.jpg)"></div>
                 <div class="card__content">
-                  <p class="card__category">Universidad</p>
+                  <p class="card__category">Universidad sede Bogota</p>
                   <h3 class="card__heading">Universidad Nacional De Colombia</h3>
                 </div>
               </a>
-              <a class="card" href="https://www.udea.edu.co/" target="_blank">
-                <div class="card__background" style="background-image: url(./image/anti.jpg)"></div>
+              <a class="card" href="https://www.javeriana.edu.co/inicio" target="_blank">
+                <div class="card__background" style="background-image: url(./image/javeriana.png)"></div>
                 <div class="card__content">
-                  <p class="card__category">Universidad</p>
-                  <h3 class="card__heading">Universidad De Antioquia</h3>
+                  <p class="card__category">Universidad Bogota</p>
+                  <h3 class="card__heading">Universidad Pontificia Javeriana</h3>
                 </div>
               </a>
               <a class="card" href="https://uniandes.edu.co/" target="_blank">
                 <div class="card__background" style="background-image: url(./image/andes.avif)"></div>
                 <div class="card__content">
-                  <p class="card__category">Universidad</p>
+                  <p class="card__category">Universidad Bogota</p>
                   <h3 class="card__heading">Universidad De Los Andes</h3>
                 </div>
               </li>
-              <a class="card" href="https://www.icesi.edu.co/es/" target="_blank">
-                <div class="card__background" style="background-image: url(./image/icese.jpg)"></div>
+              <a class="card" href="https://www.unbosque.edu.co/" target="_blank">
+                <div class="card__background" style="background-image: url(./image/bosque.jpg)"></div>
                 <div class="card__content">
-                  <p class="card__category">Universidad</p>
-                  <h3 class="card__heading">Universidad Icesi</h3>
+                  <p class="card__category">Universidad Bogota</p>
+                  <h3 class="card__heading">Universidad El Bosque</h3>
                 </div>
               </a>
             <div>
@@ -238,32 +279,32 @@ Para encontrar ese “trabajo ideal” es muy importante que analicemos nuestra 
 
           <section class="hero-section">
             <div class="card-grid">
-              <a class="card" href="https://unal.edu.co/" target="_blank">
-                <div class="card__background" style="background-image: url(./image/nacho.jpg)"></div>
-                <div class="card__content">
-                  <p class="card__category">Universidad</p>
-                  <h3 class="card__heading">Universidad Nacional De Colombia</h3>
-                </div>
-              </a>
-              <a class="card" href="https://www.udea.edu.co/" target="_blank">
-                <div class="card__background" style="background-image: url(./image/anti.jpg)"></div>
-                <div class="card__content">
-                  <p class="card__category">Universidad</p>
-                  <h3 class="card__heading">Universidad De Antioquia</h3>
-                </div>
-              </a>
-              <a class="card" href="https://uniandes.edu.co/" target="_blank">
-                <div class="card__background" style="background-image: url(./image/andes.avif)"></div>
-                <div class="card__content">
-                  <p class="card__category">Universidad</p>
-                  <h3 class="card__heading">Universidad De Los Andes</h3>
-                </div>
-              </li>
               <a class="card" href="https://www.icesi.edu.co/es/" target="_blank">
                 <div class="card__background" style="background-image: url(./image/icese.jpg)"></div>
                 <div class="card__content">
-                  <p class="card__category">Universidad</p>
+                  <p class="card__category">Universidad Cali</p>
                   <h3 class="card__heading">Universidad Icesi</h3>
+                </div>
+              </a>
+              <a class="card" href="https://www.univalle.edu.co/" target="_blank">
+                <div class="card__background" style="background-image: url(./image/valle.jpg)"></div>
+                <div class="card__content">
+                  <p class="card__category">Universidad Cali</p>
+                  <h3 class="card__heading">Universidad Del Valle</h3>
+                </div>
+              </a>
+              <a class="card" href="https://www.javerianacali.edu.co/" target="_blank">
+                <div class="card__background" style="background-image: url(./image/javerianacali.png)"></div>
+                <div class="card__content">
+                  <p class="card__category">Universidad sede Cali</p>
+                  <h3 class="card__heading">Universidad Pontificia Javeriana</h3>
+                </div>
+              </li>
+              <a class="card" href="https://www.usc.edu.co/" target="_blank">
+                <div class="card__background" style="background-image: url(./image/santiago.jpg)"></div>
+                <div class="card__content">
+                  <p class="card__category">Universidad Cali</p>
+                  <h3 class="card__heading">Universidad Santiago Cali</h3>
                 </div>
               </a>
             <div>
