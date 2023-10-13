@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="../css/formularioadmin.css">
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+  <link rel="shortcut icon" href="../../logos/Logo_Prector-removebg-preview.png" type="image/x-icon">
 
 </head>
 
@@ -31,7 +32,7 @@
 		<form action="../php/registraroles.php" method="post">
 			<h1>Resgistrar Usuario</h1>
 			<div class="social-container">
-				<a href="https://es-la.facebook.com/" class="social1"><i class="fab fa-facebook-f"></i></a>
+				<a href="https://es-lzza.facebook.com/" class="social1"><i class="fab fa-facebook-f"></i></a>
 				<a href="https://www.google.com/intl/es/account/about/" class="social2"><i class="fab fa-google-plus-g"></i></a>
 				<a href="https://co.linkedin.com/" class="social3"><i class="fab fa-linkedin-in"></i></a>
 			</div>

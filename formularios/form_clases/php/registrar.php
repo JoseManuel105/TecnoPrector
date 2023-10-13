@@ -1,6 +1,3 @@
-<?php
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,15 +15,11 @@
 
     include "../../php/conexion.php";
 
-    if (isset($_POST['guardar'])){
-
     $nombre = $_POST['nombre'];
     $correo = $_POST['correo'];     
     $contacto = $_POST['contacto'];
     $contraseña = $_POST['contraseña'];
     $area = $_POST['area'];
-
-    }
 
     if ($tipo == ""){
         echo "Ingrese Una Opcion Valida";

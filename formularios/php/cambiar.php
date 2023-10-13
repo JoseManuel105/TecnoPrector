@@ -20,6 +20,7 @@
   <title>Clases</title>
   <link rel="stylesheet" href="../../principal/cabeza/cabeza.css">
   <link rel="stylesheet" href="../../style.css">
+  <link rel="shortcut icon" href="../../logos/Logo_Prector-removebg-preview.png" type="image/x-icon">
 </head>
 <body style="padding-top: 0px; background-color: black">  
  
@@ -45,9 +46,8 @@
 
     <div class="icon-links" style="padding-left: 30px;">
         <div  style="padding-right: 10px;" id="search-btn"><span class="icon-search" style="width: 20px; height: 20px;"></span></div>
-        <div  style="padding-right: 10px;" id="customer-center"><span class="icon-phone-alt"></span></div>
-        <div  style="padding-right: 10px;" id="icon-shopping-cart"><span class="icon-cart-arrow-down"><span id="item-counter">0</span></div>
-        <div  style="padding-right: 10px;" id="login-or-signup"><span class="icon-user"></div>
+        <a href="../../Proyectos2.html"><div  style="padding-right: 10px;" id="customer-center"><span class="icon-phone-alt"></span></div></a>
+        <a href="../../seccion-perfil-usuario.html"><div  style="padding-right: 10px;" id="login-or-signup"><span class="icon-user"></div></a>
         <div  style="padding-right: 10px;" id="toggle-bar"><span class="toggler"></span></div>
     </div>
   </nav>

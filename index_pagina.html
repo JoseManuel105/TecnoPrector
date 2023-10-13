@@ -1322,8 +1322,8 @@ Date: October, 2021
                     <div class="subscribe-text">
                         <p>Registrate para recibir notificaciones cuando haya novedades</p>
                     </div>
-                    <form class="subscribe-input">
-                        <input type="email" placeholder="Ingresa tu correo" required>
+                    <form class="subscribe-input" method="post" action="visitantes.php">
+                        <input type="email" name="visitante" placeholder="Ingresa tu correo" required>
                         <button type="submit">Registrarme</button>
                     </form>
                 </div>
@@ -1351,7 +1351,7 @@ Date: October, 2021
                             </div>
 
                             <div class="f-links">
-                                <a href="#"><span class="icon-instagram"></span></a>
+                                <a href="https://www.instagram.com/tecno_prector/?next=%2F" target="_blank"><span class="icon-instagram"></span></a>
                             </div>
 
                             <div class="f-links">
@@ -1374,7 +1374,7 @@ Date: October, 2021
                             <p><a href="./index_pagina.html">Inicio</a></p>
                             <p><a href="./Servicios.html">Servicios</a></p>
                             <p><a href="./Proyectos.html">Proyectos</a></p>
-                            <p><a href="./index_clases.php">Clases</a></p>
+                            <p><a href="./clases/index_clases.html">Clases</a></p>
                         </div>
                     </div>
 
@@ -1391,9 +1391,9 @@ Date: October, 2021
                     <div class="useful-links">
                         <h2>Nosotros</h2>
                         <div class="Qlinks">
-                            <p><a href="./Blog.html">¿Que somos?</a></p>
-                            <p><a href="./Blog.html">TecnoPrector team</a></p>
-                            <p><a href="./Blog.html">Creadores</a></p>
+                            <p><a href="./Proyectos2.html">¿Que somos?</a></p>
+                            <p><a href="./Proyectos2.html">TecnoPrector team</a></p>
+                            <p><a href="./Proyectos2.html">Creadores</a></p>
                           
                         </div>
                     </div>
@@ -1402,31 +1402,31 @@ Date: October, 2021
                         <h2>Donación😊</h2>
                         <div class="payment-cards">
                             <div class="payment-link">
-                                <a href="#"><span class="icon-cc-amazon-pay"></span></a>
+                                <a href="./form_credito/index.html"><span class="icon-cc-amazon-pay"></span></a>
                             </div>
 
                             <div class="payment-link">
-                                <a href="#"><span class="icon-cc-mastercard"></span></a>
+                                <a href="./form_credito/index.html"><span class="icon-cc-mastercard"></span></a>
                             </div>
 
                             <div class="payment-link">
-                                <a href="#"><span class="icon-cc-paypal"></span></a>
+                                <a href="./form_credito/index.html"><span class="icon-cc-paypal"></span></a>
                             </div>
 
                             <div class="payment-link">
-                                <a href="#"><span class="icon-cc-stripe"></span></a>
+                                <a href="./form_credito/index.html"><span class="icon-cc-stripe"></span></a>
                             </div>
 
                             <div class="payment-link">
-                                <a href="#"><span class="icon-cc-visa"></span></a>
+                                <a href="./form_credito/index.html"><span class="icon-cc-visa"></span></a>
                             </div>
 
                             <div class="payment-link">
-                                <a href="#"><span class="icon-cc-discover"></span></a>
+                                <a href="./form_credito/index.html"><span class="icon-cc-discover"></span></a>
                             </div>
 
                             <div class="payment-link">
-                                <a href="#"><span class="icon-cc-jcb"></span></a>
+                                <a href="./form_credito/index.html"><span class="icon-cc-jcb"></span></a>
                             </div>
                         </div>
                     </div>
@@ -1441,7 +1441,7 @@ Date: October, 2021
 
         <!-- copyright area start -->
         <footer>
-            <p>Creado por <a href="https://www.youtube.com/channel/UCr4TC9YxsDZwzwIxnZOVlBw" target="_blank">TecnoPrector team</a> |
+            <p>Creado por <a href="https://www.instagram.com/tecno_prector/?next=%2F" target="_blank">TecnoPrector team</a> |
                 &copy; 2023 todos los derechos reservados</p>
         </footer>
         <!-- copyright area end -->
@@ -1467,6 +1467,8 @@ Date: October, 2021
     <script src="js/slider.js"></script>
     <script src="js/questions.js"></script>
     <script src="js/menu.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </body>
 
