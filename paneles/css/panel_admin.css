@@ -139,7 +139,7 @@ body.light-mode .video-bg:before {
 }
 
 .app {
-  background-color: var(--theme-bg-color);
+  background-color: rgb(12 12 12 / 80%);
   max-width: 1850px;
   max-height: 1060px;
   height: 90vh;
@@ -971,4 +971,9 @@ body.light-mode .video-bg:before {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   display: none; /* Para ocultar la sección inicialmente */
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
 }
