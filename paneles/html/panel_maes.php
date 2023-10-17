@@ -34,6 +34,7 @@
   <title>Panel Maestro</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="../css/panel_admin.css">
+  <link rel="shortcut icon" href="../../logos/Logo_Prector-removebg-preview.png" type="image/x-icon">
 
   </head>
 <body>
@@ -107,7 +108,7 @@
        </div>
        
       <div class="side-wrapper">
-    <div class="side-title"><a href="../../servicios/principal/index_servicios.html">Servicios</a></div>
+    <div class="side-title">Servicios</div>
     <div class="side-menu">
      
     <a href="../../servicios/orientacion_vocacional/index.html">
@@ -149,16 +150,17 @@
     </div>
        </div>
 
-       <div class="side-wrapper">
+   <div class="side-wrapper">
         <div class="side-title">Configuraciones</div>
         <div class="side-menu">
-         <a href="#">
+        <a href="../../seccion-perfil-usuario.html">
 
           <svg viewBox="0 0 512 512" fill="currentColor">
            <path d="M467 0H45C20.186 0 0 20.186 0 45v422c0 24.814 20.186 45 45 45h422c24.814 0 45-20.186 45-45V45c0-24.814-20.186-45-45-45zM181 241c41.353 0 75 33.647 75 75s-33.647 75-75 75-75-33.647-75-75c0-8.291 6.709-15 15-15s15 6.709 15 15c0 24.814 20.186 45 45 45s45-20.186 45-45-20.186-45-45-45c-41.353 0-75-33.647-75-75s33.647-75 75-75 75 33.647 75 75c0 8.291-6.709 15-15 15s-15-6.709-15-15c0-24.814-20.186-45-45-45s-45 20.186-45 45 20.186 45 45 45zm180 120h30c8.291 0 15 6.709 15 15s-6.709 15-15 15h-30c-24.814 0-45-20.186-45-45V211h-15c-8.291 0-15-6.709-15-15s6.709-15 15-15h15v-45c0-8.291 6.709-15 15-15s15 6.709 15 15v45h45c8.291 0 15 6.709 15 15s-6.709 15-15 15h-45v135c0 8.276 6.724 15 15 15z" />
           </svg>
           Cuenta
          </a>
+
          <a href="../../formularios/php/cambiar.php">
           <svg viewBox="0 0 511.441 511.441" fill="currentColor">
            <path d="M255.721 347.484L90.22 266.751v106.57l165.51 73.503 165.509-73.503V266.742z" />
@@ -166,6 +168,7 @@
           </svg>
           Contraseña
          </a>
+
          <a href="../../formularios/php/cerrarsesion.php">
           <svg viewBox="0 0 512 512" fill="currentColor">
            <path d="M196 151h-75v90h75c24.814 0 45-20.186 45-45s-20.186-45-45-45z" />
@@ -173,6 +176,7 @@
           </svg>
           Cerrar Sesion
          </a>
+         
         </div>
        </div>
       </div>
@@ -216,10 +220,10 @@
             <button class="content-button status-button open">Contactar</button>
             <div class="menu">
              <button class="dropdown">
-              <ul>
-               <li><a href="#">Go to Discover</a></li>
-               <li><a href="#">Learn more</a></li>
-               <li><a href="#">Uninstall</a></li>
+             <ul>
+               <li><a href="../../index_pagina.html">Leer Mas</a></li>
+               <li><a href="../../index_pagina.html">Volver Al Inicio</a></li>
+               <li><a href="../../formularios/html/formulario.html">Ir Al Formulario</a></li>
               </ul>
              </button>
             </div>
@@ -258,10 +262,10 @@
             </div>
             <div class="menu">
              <button class="dropdown">
-              <ul>
-               <li><a href="#">Go to Discover</a></li>
-               <li><a href="#">Learn more</a></li>
-               <li><a href="#">Uninstall</a></li>
+             <ul>
+               <li><a href="../../index_pagina.html">Leer Mas</a></li>
+               <li><a href="../../index_pagina.html">Volver Al Inicio</a></li>
+               <li><a href="../../formularios/html/formulario.html">Ir Al Formulario</a></li>
               </ul>
              </button>
             </div>
@@ -278,10 +282,10 @@
             <button class="content-button status-button open">Contactar</button>
             <div class="menu">
              <button class="dropdown">
-              <ul>
-               <li><a href="#">Go to Discover</a></li>
-               <li><a href="#">Learn more</a></li>
-               <li><a href="#">Uninstall</a></li>
+             <ul>
+               <li><a href="../../index_pagina.html">Leer Mas</a></li>
+               <li><a href="../../index_pagina.html">Volver Al Inicio</a></li>
+               <li><a href="../../formularios/html/formulario.html">Ir Al Formulario</a></li>
               </ul>
              </button>
             </div>
@@ -336,7 +340,7 @@
            </span>
            <div class="app-card__subtext">Usa esta herramienta para buscar entre las tablas, a un usuario.</div>
            <div class="app-card-buttons">
-            <button class="content-button status-button">Buscar</button>
+            <a href="../../formularios/php/buscar_usuario.php"><button class="content-button status-button">Buscar</button></a>
             <div class="menu"></div>
            </div>
           </div>

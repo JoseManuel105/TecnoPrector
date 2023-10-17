@@ -34,6 +34,7 @@
   <title>Panel Administrador</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="../css/panel_admin.css">
+  <link rel="shortcut icon" href="../../logos/Logo_Prector-removebg-preview.png" type="image/x-icon">
 
   </head>
 <body>
@@ -163,12 +164,12 @@
       Tecnicas estudio
      </a>
     </div>
-       </div>
+   </div>
 
        <div class="side-wrapper">
         <div class="side-title">Configuraciones</div>
         <div class="side-menu">
-         <a href="#">
+         <a href="../../seccion-perfil-usuario.html">
 
           <svg viewBox="0 0 512 512" fill="currentColor">
            <path d="M467 0H45C20.186 0 0 20.186 0 45v422c0 24.814 20.186 45 45 45h422c24.814 0 45-20.186 45-45V45c0-24.814-20.186-45-45-45zM181 241c41.353 0 75 33.647 75 75s-33.647 75-75 75-75-33.647-75-75c0-8.291 6.709-15 15-15s15 6.709 15 15c0 24.814 20.186 45 45 45s45-20.186 45-45-20.186-45-45-45c-41.353 0-75-33.647-75-75s33.647-75 75-75 75 33.647 75 75c0 8.291-6.709 15-15 15s-15-6.709-15-15c0-24.814-20.186-45-45-45s-45 20.186-45 45 20.186 45 45 45zm180 120h30c8.291 0 15 6.709 15 15s-6.709 15-15 15h-30c-24.814 0-45-20.186-45-45V211h-15c-8.291 0-15-6.709-15-15s6.709-15 15-15h15v-45c0-8.291 6.709-15 15-15s15 6.709 15 15v45h45c8.291 0 15 6.709 15 15s-6.709 15-15 15h-45v135c0 8.276 6.724 15 15 15z" />
@@ -228,6 +229,7 @@
          <img class="content-wrapper-img" src="https://assets.codepen.io/3364143/glass.png" alt="">
         </div>
         <div class="content-section">
+
          <div class="content-section-title">Herramientas</div>
          <ul>
           <li class="adobe-product">
@@ -241,10 +243,34 @@
             <button class="content-button status-button "><a href="./AG/buscar_alumno.php">Buscar</a></button>
             <div class="menu">
              <button class="dropdown">
-              <ul>
-               <li><a href="#">Go to Discover</a></li>
-               <li><a href="#">Learn more</a></li>
-               <li><a href="#">Uninstall</a></li>
+             <ul>
+               <li><a href="../../index_pagina.html">Leer Mas</a></li>
+               <li><a href="../../index_pagina.html">Volver Al Inicio</a></li>
+               <li><a href="../../formularios/html/formulario.html">Ir Al Formulario</a></li>
+              </ul>
+             </button>
+            </div>
+           </div>
+          </li> 
+
+           <!-- VENANA FLOTANTE CIERRA -->
+          </li>
+          <li class="adobe-product">
+           <div class="products">
+
+            BUSCAR PROFESORES
+           </div>
+           <span class="status">
+            <span class="status-circle green"></span>
+            Activo</span>
+           <div class="button-wrapper">
+           <a href="../../formularios/php/buscar_usuario.php"><button class="content-button status-button open">Buscar</button></a>
+            <div class="menu">
+             <button class="dropdown">
+             <ul>
+               <li><a href="../../index_pagina.html">Leer Mas</a></li>
+               <li><a href="../../index_pagina.html">Volver Al Inicio</a></li>
+               <li><a href="../../formularios/html/formulario.html">Ir Al Formulario</a></li>
               </ul>
              </button>
             </div>
@@ -261,17 +287,17 @@
            <div class="button-wrapper">
             <button class="content-button status-button"><a href="./AG/clases_maestro.php">Buscar</a></button>
             <div class="pop-up">
-             <div class="pop-up__title">Update This App
+             <div class="pop-up__title">Buscar archivos
               <svg class="close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
                <circle cx="12" cy="12" r="10" />
                <path d="M15 9l-6 6M9 9l6 6" />
               </svg>
              </div>
-             <div class="pop-up__subtitle">Adjust your selections for advanced options as desired before continuing. <a href="#">Learn more</a></div>
+             <div class="pop-up__subtitle">¿Estas seguro que deseas entrar a esta funcion de Tecno Prector?</div>
              
              <div class="content-button-wrapper">
               <button class="content-button status-button open close">Cerrar</button>
-              <button class="content-button status-button">Continue</button>
+              <button class="content-button status-button">Continuar</button>
              </div>
             </div>
             <div class="menu">
@@ -306,9 +332,11 @@
              </button>
             </div>
            </div>
-          </li>
          </ul>
         </div>
+
+
+
         <div class="content-section">
          <div class="content-section-title">Herramientas Administrador</div>
          <div class="apps-card">

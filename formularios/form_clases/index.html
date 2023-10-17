@@ -1,112 +1,157 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Responsive Signup/Login form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro Clases</title>
+  <link rel="stylesheet" href="../../principal/cabeza/cabeza.css">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="shortcut icon" href="../../logos/Logo_Prector-removebg-preview.png" type="image/x-icon">
+</head>
+<body style="padding-top: 0px; background-color: black">  
+ 
+  <nav class="navbar" style="width: 1300px; height: 60px; padding: 10px;">
+    <div class="logo">
+        <a href="../../index_pagina.html" style="font-size: 30px; padding-right: 20px;">Tecno<span class="opa">Prector</span></a>
+    </div>
+
+    <ul class="nav-items" style="position: relative; left: 320px; bottom: 35px; font-weight: 800;">
+        <li><a style="font-size: 18px; padding-right: 10px;" href="../../index_pagina.html">Inicio</a></li>
+        <li><a style="font-size: 18px; padding-right: 10px;" href="../../servicios/principal/index_servicios.html">Servicios</a></li>
+        <li><a style="font-size: 18px; padding-right: 10px;" href="../../Proyectos.html">Proyectos</a></li>
+        <li><a style="font-size: 18px; padding-right: 10px;" href="../../clases/index_clases.html">Clases</a></li>
+    </ul>
+
+    <div class="search-box" style="position: relative; left: 820px; bottom: 70px; font-weight: 800;">
+        <div class="search-icon">
+            <span class="icon-search"></span>
+        </div>
+        <input type="text" placeholder="Buscar...">
+    </div>
+
+    <div class="icon-links" style="position: absolute; left: 1120px; bottom: 20px; font-weight: 800;">
+        <div  style="padding-right: 10px;" id="search-btn"><span class="icon-search" style="width: 20px; height: 20px;"></span></div>
+       <a href="../../Proyectos2.html"><div  style="padding-right: 10px;" id="customer-center"><span class="icon-phone-alt"></span></div></a>
+       <a href="../../seccion-perfil-usuario.html"><div  style="padding-right: 10px;" id="login-or-signup"><span class="icon-user"></div></a>
+        <div  style="padding-right: 10px;" id="toggle-bar"><span class="toggler"></span></div>
+    </div>
+  </nav>
+
+  <script src="../../js/script.js"></script>
+  <script src="../../js/library.js"></script>
+  
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden;">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro Clases</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,600" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
+
+<div class="video-bg">
+   <video width="320" height="240" autoplay loop muted>
+    <source src="https://assets.codepen.io/3364143/7btrrd.mp4" type="video/mp4">
+  Tu navegador no es compatible con esta pagina.    </video>
+</div>
+
 <div class="container">
    <section id="formHolder">
 
       <div class="row">
 
-         <!-- Brand Box -->
          <div class="col-sm-6 brand">
-            <a href="#" class="logo">MR <span>.</span></a>
-
             <div class="heading">
-               <h2>Marina</h2>
-               <p>Your Right Choice</p>
+               <center><h2 style="font-size: 50px; color: rgb(0, 47, 255);">Registro Clases</h2></center>
+               <br>
+               <p>Tecno Prector</p>
             </div>
-
+            
             <div class="success-msg">
-               <p>Great! You are one of our members now</p>
-               <a href="#" class="profile">Your Profile</a>
+               <p>Bienvenido(a) A Las Clases Y Servicios Tecno Prector</p>
+               <br><br>
+               <a href="../../Asignaturas_clases/index.html" class="profile">Tus Clases</a>
             </div>
          </div>
 
-
-         <!-- Form Box -->
          <div class="col-sm-6 form">
 
-            <!-- Login Form -->
             <div class="login form-peice switched">
-               <form class="login-form" action="#" method="post">
+               <form class="login-form" action="../php/validar2.php" method="post">
                   <div class="form-group">
-                     <label for="loginemail">Email Adderss</label>
-                     <input type="email" name="loginemail" id="loginemail" required>
+                     <label for="loginemail" style="color: black;">Usuario</label>
+                     <input type="text" name="usuario" id="loginemail" required>
                   </div>
 
                   <div class="form-group">
-                     <label for="loginPassword">Password</label>
-                     <input type="password" name="loginPassword" id="loginPassword" required>
+                     <label for="loginPassword" style="color: black;">Contraseña</label>
+                     <input type="password" name="password" id="loginPassword" required>
                   </div>
 
                   <div class="CTA">
-                     <input type="submit" value="Login">
-                     <a href="#" class="switch">I'm New</a>
+                     <input type="submit" value="Iniciar">
+                     <a href="#" class="switch" style="color: black;">Soy Nuevo</a>
                   </div>
                </form>
-            </div><!-- End Login Form -->
+            </div>
 
-
-            <!-- Signup Form -->
             <div class="signup form-peice">
-               <form class="signup-form" action="#" method="post">
+               <form class="signup-form" action="php/registrar.php" method="post">
 
                   <div class="form-group">
-                     <label for="name">Full Name</label>
-                     <input type="text" name="username" id="name" class="name">
+                     <label for="name" style="color: black;">Nombre Completo</label>
+                     <input type="text" name="nombre" id="name" class="name" required>
                      <span class="error"></span>
                   </div>
 
                   <div class="form-group">
-                     <label for="email">Email Adderss</label>
-                     <input type="email" name="emailAdress" id="email" class="email">
+                     <label for="email" style="color: black;">Correo</label>
+                     <input type="email" name="correo" id="email" class="email" required>
                      <span class="error"></span>
                   </div>
 
                   <div class="form-group">
-                     <label for="phone">Phone Number - <small>Optional</small></label>
-                     <input type="text" name="phone" id="phone">
+                     <label for="phone" style="color: black;">Numero Contacto | <small>Opcional</small></label>
+                     <input type="text" name="contacto" id="phone">
                   </div>
 
                   <div class="form-group">
-                     <label for="password">Password</label>
-                     <input type="password" name="password" id="password" class="pass">
+                     <label for="password" style="color: black;">Contraseña | <small>La Misma De Tu Cuenta</small></label>
+                     <input type="password" name="contraseña" id="password" class="pass">
                      <span class="error"></span>
                   </div>
 
+                  <br><br>
+
                   <div class="form-group">
-                     <label for="passwordCon">Confirm Password</label>
-                     <input type="password" name="passwordCon" id="passwordCon" class="passConfirm">
+                     <select name="area" id="area" style="scale: (1.1);" required style="color: black;">
+                        <option value="" style="color: black;">Seleccionar Una Area</option>
+                        <option style="color: black;" value="matematicas">Matematicas</option>
+                        <option style="color: black;" value="ciencias">Ciencias Naturales</option>
+                        <option style="color: black;" value="idiomas">idiomas Extrangeros</option>
+                        <option style="color: black;" value="artes">Artes Graficas</option>
+                     </select>   
                      <span class="error"></span>
-                  </div>
+                  </div>   
 
                   <div class="CTA">
-                     <input type="submit" value="Signup Now" id="submit">
-                     <a href="#" class="switch">I have an account</a>
+                     <input type="submit" value="Registrar" id="submit">
+                     <a href="#" class="switch" style="color: black;">Tengo Una Cuenta</a>
                   </div>
                </form>
-            </div><!-- End Signup Form -->
+            </div>
          </div>
       </div>
 
    </section>
 
-
-   <footer>
-      <p>
-         Form made by: <a href="http://mohmdhasan.tk" target="_blank">Mohmdhasan.tk</a>
-      </p>
-   </footer>
-
 </div>
-<!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
 

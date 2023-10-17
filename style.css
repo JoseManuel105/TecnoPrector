@@ -35,6 +35,18 @@ body {
     position: relative;
 }
 
+html::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: #000;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #2626a0;
+  }
+
 .section-wrap {
     padding: 2rem 3.6rem;
     width: 100%;
