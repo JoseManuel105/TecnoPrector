@@ -3,80 +3,80 @@ let num_cards_GLOBAL = 5;
 let cards = [
     {
         background:
-            "//external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmoviefail.com%2Fwp-content%2Fuploads%2F2014%2F11%2Finterstellar1.jpeg&f=1&nofb=1",
+            "./image/calculo.jpg",
         display_background:
-            "//external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fhdqwalls.com%2Fdownload%2Finterstellar-gargantua-u4-1920x1080.jpg&f=1&nofb=1",
-        title: "Interstellar",
+            "./image/calculo.jpg",
+        title: "Calculo",
         description:
-            "Watch this incredible film made by some incredible people!"
+            "¡Mira este increible curso y certificate con TecnoPrector!"
     },
     {
-        background: "https://images.alphacoders.com/586/thumb-1920-586902.jpg",
+        background: "./image/astronomia.jpg",
         display_background:
-            "//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages2.alphacoders.com%2F845%2F84502.jpg&f=1&nofb=1",
-        title: "Inception",
+            "./image/astronomia.jpg",
+        title: "Astronomia",
         description:
-            "Watch this incredible film made by some incredible people!"
+        "¡Mira este increible curso y certificate con TecnoPrector!"
     },
     {
         background:
-            "//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.wallpapersafari.com%2F41%2F1%2Fhj197K.jpg&f=1&nofb=1",
+            "./image/estadistica.jpg",
         display_background:
-            "//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages7.alphacoders.com%2F990%2F990610.jpg&f=1&nofb=1",
-        title: "Avengers: Endgame",
+            "./image/estadistica.jp",
+        title: "Estadistica",
         description:
-            "Watch this incredible film made by some incredible people!"
+        "¡Mira este increible curso y certificate con TecnoPrector!"
     },
     {
         background:
-            "//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wallpapersden.com%2Fimage%2Fdownload%2Fjoker-2019-movie_66632_1920x1080.jpg&f=1&nofb=1",
+            "./image/geometria.webp",
         display_background:
-            "//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wallpapersden.com%2Fimage%2Fdownload%2Fjoker-stair-dance_68124_1920x1080.jpg&f=1&nofb=1",
-        title: "Joker",
+            "./image/geometria.webp",
+        title: "Geometria",
         description:
-            "Watch this incredible film made by some incredible people!"
+        "¡Mira este increible curso y certificate con TecnoPrector!"
     },
     {
         background:
-            "//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.U2iFUz9mivZeH-h48O5wtwHaEK%26pid%3DApi&f=1",
-        title: "1917",
+            "./image/funciones.jpg",
+        title: "Funciones",
         description:
-            "Watch this incredible film made by some incredible people!"
+        "¡Mira este increible curso y certificate con TecnoPrector!"
     },
     {
         background:
-            "//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapershome.com%2Fimages%2Fpages%2Fpic_h%2F22685.jpg&f=1&nofb=1",
-        title: "TENET",
+            "./image/fisica.jpg",
+        title: "Fisica",
         description:
-            "Watch this incredible film made by some incredible people!"
+        "¡Mira este increible curso y certificate con TecnoPrector!"
     },
     {
         background:
-            "//external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.hdwallpapers.in%2Fdownload%2Fskyfall_2012_movie-1920x1080.jpg&f=1&nofb=1",
-        title: "Skyfall",
+            "./image/quimica.jpeg",
+        title: "Quimica",
         description:
-            "Watch this incredible film made by some incredible people!"
+        "¡Mira este increible curso y certificate con TecnoPrector!"
     },
     {
         background:
-            "//external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2F9%2F6%2F8%2F126147.jpg&f=1&nofb=1",
-        title: "Star Wars: A New Hope",
+            "./image/biologia.jpg",
+        title: "Biologia",
         description:
-            "Watch this incredible film made by some incredible people!"
+        "¡Mira este increible curso y certificate con TecnoPrector!"
     },
     {
         background:
-            "//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FrPpxrz8o0svAPCLucjsEdMXoDfX.jpg&f=1&nofb=1",
-        title: "Venom",
+            "./image/francia.jpg",
+        title: "Frances",
         description:
-            "Watch this incredible film made by some incredible people!"
+        "¡Mira este increible curso y certificate con TecnoPrector!"
     },
     {
         background:
-            "//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2F2%2F6%2F8%2F123320-lord-of-the-rings-background-1920x1080-picture.jpg&f=1&nofb=1",
-        title: "Lord of the Rings",
+            "./image/animacion.jpg",
+        title: "Animacion",
         description:
-            "Watch this incredible film made by some incredible people!"
+        "¡Mira este increible curso y certificate con TecnoPrector!"
     }
 ];
 
@@ -350,14 +350,14 @@ const AddCards = () => {
                     btn_selection.classList.add("button-selection");
                     btn_selection.innerHTML = `
                         <div class="watch">
-                            <h3>Play</h3>
+                            <h3>Reproducir</h3>
                             <svg fill="currentColor" viewBox="0 0 16 16">
                                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                 <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
                             </svg>
                         </div>
                         <div class="queue" onclick="ToggleWatchLater('${chosen_card.title}');">
-                            <h3>Watch Later</h3>
+                            <h3>Ver Mas Tarde</h3>
                             <svg fill="currentColor" viewBox="0 0 16 16">
                                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                 <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
