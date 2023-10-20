@@ -55,7 +55,7 @@
 	</div>
 	<div class="form-container sign-in-container">  
 		<form action="../php/validar2.php" method="post">
-			<h1><a href="../php/buscar_usuario.php" class="buscar"> Buscar Usuario </a></h1>
+			<h1><a href="../../paneles/html/panel_admin.php" class="buscar"> Regresar? </a></h1>
 			<div class="social-container">
 				<a href="https://es-la.facebook.com/" class="social1"><i class="fab fa-facebook-f"></i></a>
 				<a href="https://www.google.com/intl/es/account/about/" class="social2"><i class="fab fa-google-plus-g"></i></a>

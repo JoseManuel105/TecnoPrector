@@ -197,9 +197,7 @@ Tu navegador no es compatible con esta pagina.    </video>
         Panel Del Maestro
       </h3>
       <div class="content-text">
-        <br><br><br><br>
-        <br><br><br><br>
-        <br><br><br><br>
+        
       </div>
       <!-- <button class="content-button">Start free trial</button> -->
      </div>

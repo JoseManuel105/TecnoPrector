@@ -57,9 +57,9 @@
       <div class="panel">Panel Del Administrador</div> <br>  
       
       <div class="header-menu">
-       <a class="menu-link is-active" href="#">Inicio</a>
+       <a class="menu-link is-active" href="./panel_admin.php">Inicio</a>
        <a class="menu-link " href="./AD/administrar_clases.php">Administrar</a>
-       <a class="menu-link " href="./AD/historial.php">Historial</a>
+       
       </div>
 
       <div class="search-bar">
@@ -67,12 +67,7 @@
       </div>
 
       <div class="header-profile">
-       <div class="notification">
-        <span class="notification-number"></span>
-        <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell">
-         <path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9M13.73 21a2 2 0 01-3.46 0" />
-        </svg>
-       </div>
+       
        
       </div>
 
@@ -113,13 +108,13 @@
            <path d="M497 151H316c-8.401 0-15 6.599-15 15v300c0 8.401 6.599 15 15 15h181c8.401 0 15-6.599 15-15V166c0-8.401-6.599-15-15-15zm-76 270h-30c-8.401 0-15-6.599-15-15s6.599-15 15-15h30c8.401 0 15 6.599 15 15s-6.599 15-15 15zm0-180h-30c-8.401 0-15-6.599-15-15s6.599-15 15-15h30c8.401 0 15 6.599 15 15s-6.599 15-15 15z" />
            <path d="M15 331h196v60h-75c-8.291 0-15 6.709-15 15s6.709 15 15 15h135v-30h-30v-60h30V166c0-24.814 20.186-45 45-45h135V46c0-8.284-6.716-15-15-15H15C6.716 31 0 37.716 0 46v270c0 8.284 6.716 15 15 15z" />
           </svg>
-          Administrar Clases
+          Panel maestro
          </a>
          <a href="#">
           <svg viewBox="0 0 512 512" fill="currentColor">
            <path d="M0 331v112.295a14.996 14.996 0 007.559 13.023L106 512V391L0 331zM136 391v121l105-60V331zM271 331v121l105 60V391zM406 391v121l98.441-55.682A14.995 14.995 0 00512 443.296V331l-106 60zM391 241l-115.754 57.876L391 365.026l116.754-66.15zM262.709 1.583a15.006 15.006 0 00-13.418 0L140.246 57.876 256 124.026l115.754-66.151L262.709 1.583zM136 90v124.955l105 52.5V150zM121 241L4.246 298.876 121 365.026l115.754-66.15zM271 150v117.455l105-52.5V90z" />
           </svg>
-          Administrar Usuarios
+          Panel estudiante
          </a>
         </div>
        </div>
@@ -213,14 +208,7 @@
         <div class="content-wrapper-header">
          <div class="content-wrapper-context">
           <h3 class="img-content">
-           <svg viewBox="0 0 512 512">
-            <path d="M467 0H45C20.099 0 0 20.099 0 45v422c0 24.901 20.099 45 45 45h422c24.901 0 45-20.099 45-45V45c0-24.901-20.099-45-45-45z" fill="#d6355b" data-original="#ff468c" />
-            <path xmlns="http://www.w3.org/2000/svg" d="M512 45v422c0 24.901-20.099 45-45 45H256V0h211c24.901 0 45 20.099 45 45z" fill="#d6355b" data-original="#d72878" />
-            <path xmlns="http://www.w3.org/2000/svg" d="M467 30H45c-8.401 0-15 6.599-15 15v422c0 8.401 6.599 15 15 15h422c8.401 0 15-6.599 15-15V45c0-8.401-6.599-15-15-15z" fill="#2e000a" data-original="#700029" />
-            <path xmlns="http://www.w3.org/2000/svg" d="M482 45v422c0 8.401-6.599 15-15 15H256V30h211c8.401 0 15 6.599 15 15z" fill="#2e000a" data-original="#4d0e06" />
-            <path xmlns="http://www.w3.org/2000/svg" d="M181 391c-41.353 0-75-33.647-75-75 0-8.291 6.709-15 15-15s15 6.709 15 15c0 24.814 20.186 45 45 45s45-20.186 45-45-20.186-45-45-45c-41.353 0-75-33.647-75-75s33.647-75 75-75 75 33.647 75 75c0 8.291-6.709 15-15 15s-15-6.709-15-15c0-24.814-20.186-45-45-45s-45 20.186-45 45 20.186 45 45 45c41.353 0 75 33.647 75 75s-33.647 75-75 75z" fill="#d6355b" data-original="#ff468c" />
-            <path xmlns="http://www.w3.org/2000/svg" d="M391 361h-30c-8.276 0-15-6.724-15-15V211h45c8.291 0 15-6.709 15-15s-6.709-15-15-15h-45v-45c0-8.291-6.709-15-15-15s-15 6.709-15 15v45h-15c-8.291 0-15 6.709-15 15s6.709 15 15 15h15v135c0 24.814 20.186 45 45 45h30c8.291 0 15-6.709 15-15s-6.709-15-15-15z" fill="#d6355b" data-original="#d72878" />
-           </svg>
+           
             Panel Del Administrador 
           </h3>
           <div class="content-text">Bienvenido al panel del administrador de TecnoPrector, en este panel podras acceder a multiples herramientas fundamentales acerca de la plataforma web, y ver toda la informacion que en esta se plantea.</div>
@@ -228,112 +216,7 @@
          </div>
          <img class="content-wrapper-img" src="https://assets.codepen.io/3364143/glass.png" alt="">
         </div>
-        <div class="content-section">
-
-         <div class="content-section-title">Herramientas</div>
-         <ul>
-          <li class="adobe-product">
-           <div class="products">
-            BUSCAR ALUMNO
-           </div>
-           <span class="status">
-            <span class="status-circle green"></span>
-            Activo</span>
-           <div class="button-wrapper">
-            <button class="content-button status-button "><a href="./AG/buscar_alumno.php">Buscar</a></button>
-            <div class="menu">
-             <button class="dropdown">
-             <ul>
-               <li><a href="../../index_pagina.html">Leer Mas</a></li>
-               <li><a href="../../index_pagina.html">Volver Al Inicio</a></li>
-               <li><a href="../../formularios/html/formulario.html">Ir Al Formulario</a></li>
-              </ul>
-             </button>
-            </div>
-           </div>
-          </li> 
-
-           <!-- VENANA FLOTANTE CIERRA -->
-          </li>
-          <li class="adobe-product">
-           <div class="products">
-
-            BUSCAR PROFESORES
-           </div>
-           <span class="status">
-            <span class="status-circle green"></span>
-            Activo</span>
-           <div class="button-wrapper">
-           <a href="../../formularios/php/buscar_usuario.php"><button class="content-button status-button open">Buscar</button></a>
-            <div class="menu">
-             <button class="dropdown">
-             <ul>
-               <li><a href="../../index_pagina.html">Leer Mas</a></li>
-               <li><a href="../../index_pagina.html">Volver Al Inicio</a></li>
-               <li><a href="../../formularios/html/formulario.html">Ir Al Formulario</a></li>
-              </ul>
-             </button>
-            </div>
-           </div>
-          </li>
-          <li class="adobe-product">
-           <div class="products">
-            BUSCAR PROFESOR
-           </div>
-           <span class="status">
-            <span class="status-circle"></span>
-            Activo</span>
-            <!-- VENTANA FLOTANTE ABRE -->
-           <div class="button-wrapper">
-            <button class="content-button status-button"><a href="./AG/clases_maestro.php">Buscar</a></button>
-            <div class="pop-up">
-             <div class="pop-up__title">Buscar archivos
-              <svg class="close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
-               <circle cx="12" cy="12" r="10" />
-               <path d="M15 9l-6 6M9 9l6 6" />
-              </svg>
-             </div>
-             <div class="pop-up__subtitle">¿Estas seguro que deseas entrar a esta funcion de Tecno Prector?</div>
-             
-             <div class="content-button-wrapper">
-              <button class="content-button status-button open close">Cerrar</button>
-              <button class="content-button status-button">Continuar</button>
-             </div>
-            </div>
-            <div class="menu">
-             <button class="dropdown">
-              <ul>
-               <li><a href="#">Go to Discover</a></li>
-               <li><a href="#">Learn more</a></li>
-               <li><a href="#">Uninstall</a></li>
-              </ul>
-             </button>
-            </div>
-           </div> 
-           <!-- VENANA FLOTANTE CIERRA -->
-          </li>
-          <li class="adobe-product">
-           <div class="products">
-
-            ARCHIVOS
-           </div>
-           <span class="status">
-            <span class="status-circle green"></span>
-            Activo</span>
-           <div class="button-wrapper">
-            <button class="content-button status-button"><a href="./AD/buscar_archivos.php">buscar</a></button>
-            <div class="menu">
-             <button class="dropdown">
-              <ul>
-               <li><a href="#">Go to Discover</a></li>
-               <li><a href="#">Learn more</a></li>
-               <li><a href="#">Uninstall</a></li>
-              </ul>
-             </button>
-            </div>
-           </div>
-         </ul>
-        </div>
+        
 
 
 
@@ -348,7 +231,7 @@
            <div class="app-card-buttons">
 
             <!--SECCION FLOTANTE-->
-            <button class="content-button" href="../">Agregar</button>
+            <button class="content-button" ><a href="../../formularios/php/formularioadmin.php">Agregar</a></button>
             <div class="seccion-encima"></div>
             <!--SECCION FLOTANTE-->
             <div class="menu"></div>
@@ -356,11 +239,11 @@
           </div>
           <div class="app-card">
            <span> 
-            Eliminar Usuarios
+            Actulizar Usuarios
            </span>
-           <div class="app-card__subtext">Usa esta herramienta para eliminar usuarios de las tablas.</div>
+           <div class="app-card__subtext">Usa esta herramienta para editar usuarios de las tablas.</div>
            <div class="app-card-buttons">
-            <button class="content-button" ><a href="./AD/Eliminar_user.php">Eliminar</a></button>
+            <button class="content-button" ><a href="./AD/Eliminar_user.php">Actulizar</a></button>
             <div class="menu"></div>
            </div>
           </div>
